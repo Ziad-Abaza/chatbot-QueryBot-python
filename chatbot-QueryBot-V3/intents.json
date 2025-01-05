@@ -1,0 +1,1359 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Good morning",
+        "Good evening",
+        "hello",
+        "hey",
+        "what's up"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "i have to go",
+        "gotta go"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I am old and wise",
+        "trying to stay fit and young!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "who are you?"
+      ],
+      "responses": [
+        "You can call me Sally.",
+        "I'm Sally!",
+        "I'm Sally."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Id like to ask something",
+        "what can you do",
+        "can you help me?",
+        "can i tell you something"
+      ],
+      "responses": [
+        "I'm here to help you!",
+        "I can help you with whatever you tell me to."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "How's the weather?",
+        "Is it going to rain?",
+        "Weather forecast",
+        "Weather update"
+      ],
+      "responses": [
+        "The weather is sunny today.",
+        "It's going to be cloudy in the afternoon.",
+        "There's a chance of rain later."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Do you know the time?",
+        "Can you tell me the current time?",
+        "Time please"
+      ],
+      "responses": [
+        "It's 10:30 AM.",
+        "The time is 3:45 PM.",
+        "It's currently 8:15 PM."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "I'm hungry",
+        "What should I have for lunch?",
+        "Any food recommendations?",
+        "I need a snack",
+        "What's your favorite food?"
+      ],
+      "responses": [
+        "How about pizza?",
+        "You can try sushi.",
+        "I recommend a burger and fries."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "Can you recommend a movie?",
+        "What's a good movie to watch?",
+        "Any movie suggestions?",
+        "I want to watch a film"
+      ],
+      "responses": [
+        "Have you seen 'The Shawshank Redemption'?",
+        "I suggest 'Inception'.",
+        "You should watch 'Pulp Fiction'."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "What's your favorite music genre?",
+        "Can you recommend a song?",
+        "I need some music to relax",
+        "Any good music playlists?"
+      ],
+      "responses": [
+        "I enjoy listening to pop music.",
+        "You should check out 'Shape of You' by Ed Sheeran.",
+        "Try listening to 'Hotel California' by Eagles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books",
+      "patterns": [
+        "Any book recommendations?",
+        "What's your favorite book?",
+        "I want to read something",
+        "Can you suggest a good novel?"
+      ],
+      "responses": [
+        "You might like 'To Kill a Mockingbird' by Harper Lee.",
+        "I recommend '1984' by George Orwell.",
+        "Try reading 'The Great Gatsby' by F. Scott Fitzgerald."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's the latest technology news?",
+        "Tell me about the latest gadgets",
+        "Any interesting tech updates?",
+        "What's trending in technology?"
+      ],
+      "responses": [
+        "There have been advancements in artificial intelligence.",
+        "The latest smartphones are equipped with 5G technology.",
+        "Virtual reality is becoming more popular."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Can you recommend a programming language?",
+        "What's the best language for web development?",
+        "Any programming tips?",
+        "How can I improve my coding skills?"
+      ],
+      "responses": [
+        "Python is a versatile language for various applications.",
+        "JavaScript is widely used for web development.",
+        "Practice regularly and work on small coding projects."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "web_development",
+      "patterns": [
+        "How can I learn web development?",
+        "Any resources for learning HTML and CSS?",
+        "What skills are required for front-end development?",
+        "What's the best framework for backend development?"
+      ],
+      "responses": [
+        "There are online courses available for learning web development.",
+        "W3Schools is a good resource for HTML and CSS.",
+        "Front-end development requires knowledge of HTML, CSS, and JavaScript.",
+        "Popular backend frameworks include Django and Node.js."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science?",
+        "How can I start a career in data science?",
+        "What skills are required for data analysis?",
+        "Any recommended data science books?"
+      ],
+      "responses": [
+        "Data science involves extracting insights from data.",
+        "You can start by learning programming, statistics, and machine learning.",
+        "Skills required for data analysis include programming, data visualization, and statistical analysis.",
+        "You can read 'Python for Data Analysis' by Wes McKinney."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "What is cybersecurity?",
+        "How can I protect my online privacy?",
+        "What are common cybersecurity threats?",
+        "Any cybersecurity career tips?"
+      ],
+      "responses": [
+        "Cybersecurity involves protecting computer systems and networks from threats.",
+        "Use strong passwords and enable two-factor authentication for online accounts.",
+        "Common cybersecurity threats include malware, phishing, and ransomware.",
+        "Keep yourself updated with the latest cybersecurity trends and certifications."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "What is artificial intelligence?",
+        "How is AI used in different industries?",
+        "Any recommended AI courses?",
+        "What are the challenges in AI?"
+      ],
+      "responses": [
+        "Artificial intelligence is the simulation of human intelligence in machines.",
+        "AI is used in healthcare, finance, and transportation industries.",
+        "You can enroll in 'AI for Everyone' course on Coursera.",
+        "Challenges in AI include ethical considerations and data privacy."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "How does machine learning work?",
+        "Any popular machine learning algorithms?",
+        "How to start with machine learning?"
+      ],
+      "responses": [
+        "Machine learning is a subset of AI that enables systems to learn from data.",
+        "Machine learning algorithms analyze and make predictions based o patterns in data.",
+        "Popular machine learning algorithms include linear regression, decision trees, and neural networks.",
+        "To start with machine learning, learn programming and statistics."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "internet_of_things",
+      "patterns": [
+        "What is the Internet of Things (IoT)?",
+        "How are IoT devices connected?",
+        "Any examples of IoT applications?",
+        "What are the security considerations for IoT?"
+      ],
+      "responses": [
+        "The Internet of Things refers to the network of interconnected devices.",
+        "IoT devices are connected through wireless protocols like Wi-Fi and Bluetooth.",
+        "Examples of IoT applications include smart homes, wearable devices, and industrial automation.",
+        "Security considerations for IoT include data encryption and device authentication."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mobile_app_development",
+      "patterns": [
+        "How to develop mobile apps?",
+        "Which programming languages are used for mobile app development?",
+        "Any recommended mobile app development frameworks?",
+        "How to publish an app on app stores?"
+      ],
+      "responses": [
+        "Mobile apps can be developed using languages like Java, Swift, and React Native.",
+        "Popular mobile app development frameworks include Flutter and React Native.",
+        "To publish an app on app stores, follow the respective guidelines of Google Play Store and Apple App Store."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "big_data",
+      "patterns": [
+        "What is big data?",
+        "How is big data analyzed?",
+        "Any tools for big data processing?",
+        "What are the challenges in big data?"
+      ],
+      "responses": [
+        "Big data refers to large and complex data sets that are difficult to process using traditional methods.",
+        "Big data is analyzed using techniques like data mining, machine learning, and predictive analytics.",
+        "Popular tools for big data processing include Apache Hadoop and Apache Spark.",
+        "Challenges in big data include data storage, data quality, and privacy concerns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cyber_forensics",
+      "patterns": [
+        "What is cyber forensics?",
+        "How is digital evidence collected in cyber forensics?",
+        "Any career paths in cyber forensics?",
+        "What are the tools used in cyber forensics?"
+      ],
+      "responses": [
+        "Cyber forensics is the application of investigation and analysis techniques to gather digital evidence.",
+        "Digital evidence is collected using methods like disk imaging and network traffic analysis.",
+        "Career paths in cyber forensics include digital forensics analyst and cybersecurity consultant.",
+        "Tools used in cyber forensics include EnCase, FTK, and Wireshark."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "software_engineering",
+      "patterns": [
+        "What is software engineering?",
+        "What are the phases of the software development life cycle?",
+        "Any software engineering methodologies?",
+        "How to become a software engineer?"
+      ],
+      "responses": [
+        "Software engineering is the systematic approach to developing software solutions.",
+        "The software development life cycle includes phases like requirements gathering, design, coding, testing, and maintenance.",
+        "Software engineering methodologies include Agile, Waterfall, and DevOps.",
+        "To become a software engineer, acquire programming skills and knowledge of software development principles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "data_privacy",
+      "patterns": [
+        "What is data privacy?",
+        "How to protect personal data?",
+        "What are the data privacy regulations?",
+        "What are the consequences of data breaches?"
+      ],
+      "responses": [
+        "Data privacy refers to the protection of personal and sensitive information.",
+        "To protect personal data, use strong passwords, encrypt data, and be cautious with sharing information online.",
+        "Data privacy regulations include GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act).",
+        "Consequences of data breaches include financial loss, reputation damage, and legal penalties."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain",
+      "patterns": [
+        "What is blockchain?",
+        "How does blockchain ensure security?",
+        "Any real-world applications of blockchain?",
+        "What is a smart contract?"
+      ],
+      "responses": [
+        "Blockchain is a decentralized and distributed ledger technology.",
+        "Blockchain ensures security through cryptographic techniques and consensus algorithms.",
+        "Real-world applications of blockchain include cryptocurrencies, supply chain management, and digital identity.",
+        "A smart contract is a self-executing contract with the terms of the agreement directly written into code."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "How to stay fit?",
+        "Can you suggest a workout routine?",
+        "What are the best exercises for weight loss?",
+        "How to build muscle?"
+      ],
+      "responses": [
+        "Staying fit requires a balanced diet and regular exercise.",
+        "For weight loss, consider cardio exercises like running or cycling.",
+        "Building muscle requires strength training and a protein-rich diet."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Can you recommend travel destinations?",
+        "What are the best places to visit in Europe?",
+        "How to plan a budget trip?",
+        "Where should I go for a beach vacation?"
+      ],
+      "responses": [
+        "You might enjoy visiting Paris or Rome in Europe.",
+        "For a beach vacation, consider the Maldives or Hawaii.",
+        "To plan a budget trip, look for affordable accommodations and travel during the off-season."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "How to reduce stress?",
+        "Any tips for improving mental health?",
+        "What are some relaxation techniques?",
+        "How to stay positive during tough times?"
+      ],
+      "responses": [
+        "Practicing mindfulness can help reduce stress.",
+        "Try relaxation techniques like deep breathing or meditation.",
+        "Staying connected with loved ones can improve mental health."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Tell me a fun science fact.",
+        "What's the latest discovery in science?",
+        "Can you explain black holes?",
+        "How does gravity work?"
+      ],
+      "responses": [
+        "Did you know water can boil and freeze at the same time under certain conditions?",
+        "Black holes are regions of space where gravity is so strong that not even light can escape.",
+        "Gravity is the force that attracts objects toward one another."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "space",
+      "patterns": [
+        "What is the Milky Way?",
+        "How many planets are in our solar system?",
+        "What is a supernova?",
+        "Is there life on other planets?"
+      ],
+      "responses": [
+        "The Milky Way is our galaxy, containing billions of stars.",
+        "There are eight planets in our solar system.",
+        "A supernova is a powerful explosion that occurs at the end of a star's life cycle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "How to study effectively?",
+        "Can you suggest study tips?",
+        "What's the best way to prepare for exams?",
+        "How to improve focus while studying?"
+      ],
+      "responses": [
+        "Studying in short intervals with breaks can improve retention.",
+        "Try using flashcards for memorization.",
+        "Create a study schedule and stick to it to prepare for exams."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "parenting",
+      "patterns": [
+        "How to deal with a stubborn child?",
+        "What are good parenting tips?",
+        "How to teach kids discipline?",
+        "How to spend quality time with children?"
+      ],
+      "responses": [
+        "Listening to your child and understanding their perspective can help.",
+        "Set clear boundaries and be consistent with discipline.",
+        "Plan activities like board games or outdoor play to spend quality time with your children."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "How to take care of a cat?",
+        "What do dogs eat?",
+        "How to train a pet?",
+        "What are the best pets for kids?"
+      ],
+      "responses": [
+        "Cats require a clean litter box and regular grooming.",
+        "Dogs eat both commercial pet food and home-cooked meals suitable for them.",
+        "Positive reinforcement is an effective way to train pets."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "What's the best way to learn a new language?",
+        "Can you recommend language learning apps?",
+        "How to improve my English?",
+        "What are the most spoken languages in the world?"
+      ],
+      "responses": [
+        "Practicing daily and using language apps can help you learn faster.",
+        "Duolingo and Rosetta Stone are great language learning apps.",
+        "English, Mandarin Chinese, and Spanish are among the most spoken languages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Tell me about World War II.",
+        "Who was the first president of the USA?",
+        "What is the Great Wall of China?",
+        "When was the pyramids of Egypt built?"
+      ],
+      "responses": [
+        "World War II lasted from 1939 to 1945 and involved major global powers.",
+        "The first president of the USA was George Washington.",
+        "The Great Wall of China was built to protect against invasions and spans thousands of miles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "philosophy",
+      "patterns": [
+        "What is the meaning of life?",
+        "Can you explain existentialism?",
+        "What is utilitarianism?",
+        "Who are famous philosophers?"
+      ],
+      "responses": [
+        "The meaning of life varies by belief, philosophy, and personal perspective.",
+        "Existentialism is a philosophy that emphasizes individual freedom and responsibility.",
+        "Utilitarianism focuses on maximizing happiness for the greatest number of people."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What is artificial intelligence?",
+        "Can you explain blockchain?",
+        "How does the internet work?",
+        "What is cloud computing?"
+      ],
+      "responses": [
+        "Artificial intelligence involves machines that mimic human intelligence.",
+        "Blockchain is a decentralized ledger technology used for secure transactions.",
+        "The internet works by connecting devices globally through a network of servers.",
+        "Cloud computing allows data and applications to be stored and accessed over the internet."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "How to make a cake?",
+        "What are some quick dinner recipes?",
+        "How to cook pasta?",
+        "What is the best way to bake bread?"
+      ],
+      "responses": [
+        "To make a cake, mix flour, sugar, eggs, and butter, then bake.",
+        "Quick dinner recipes include stir-fry, salads, and pasta.",
+        "Cook pasta in boiling salted water until al dente.",
+        "Baking bread involves kneading dough, letting it rise, and baking it in the oven."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "How to boost immunity?",
+        "What are healthy eating habits?",
+        "How to get better sleep?",
+        "What are the signs of dehydration?"
+      ],
+      "responses": [
+        "Boost your immunity by eating fruits and vegetables rich in vitamins.",
+        "Healthy eating includes balanced meals, avoiding processed foods, and staying hydrated.",
+        "To improve sleep, maintain a regular schedule and limit screen time before bed.",
+        "Signs of dehydration include dry mouth, fatigue, and dizziness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "How to save money?",
+        "What is a budget?",
+        "How to invest in stocks?",
+        "What are the types of loans?"
+      ],
+      "responses": [
+        "To save money, track your expenses and cut unnecessary costs.",
+        "A budget is a financial plan that tracks income and expenses.",
+        "Investing in stocks involves buying shares of companies to earn returns.",
+        "Loans include personal loans, home loans, and student loans."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Who won the last World Cup?",
+        "What are the rules of basketball?",
+        "How to play tennis?",
+        "What is the most popular sport?"
+      ],
+      "responses": [
+        "The last World Cup was won by Argentina in 2022.",
+        "Basketball involves two teams aiming to score points by shooting a ball into the opponent's hoop.",
+        "Tennis is played with a racket, hitting the ball over the net to the opponent's court.",
+        "Football (soccer) is the most popular sport globally."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "entertainment",
+      "patterns": [
+        "What are the latest movies?",
+        "Can you recommend a TV series?",
+        "Who are famous actors?",
+        "What is the best comedy movie?"
+      ],
+      "responses": [
+        "Some recent movies include 'Dune' and 'The Batman'.",
+        "For a TV series, try 'Stranger Things' or 'Breaking Bad'.",
+        "Famous actors include Leonardo DiCaprio and Meryl Streep.",
+        "A great comedy movie is 'The Hangover'."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How to manage time effectively?",
+        "What are good productivity tools?",
+        "How to avoid procrastination?",
+        "How to set goals?"
+      ],
+      "responses": [
+        "Effective time management involves prioritizing tasks and setting deadlines.",
+        "Productivity tools include Trello, Notion, and Google Calendar.",
+        "To avoid procrastination, break tasks into smaller steps and start immediately.",
+        "Set SMART goals: Specific, Measurable, Achievable, Relevant, and Time-bound."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "How to write a resume?",
+        "What are common interview questions?",
+        "How to choose a career?",
+        "What are remote jobs?"
+      ],
+      "responses": [
+        "A good resume highlights your skills, experience, and achievements.",
+        "Common interview questions include 'Tell me about yourself' and 'What are your strengths?'",
+        "Choose a career based on your interests, skills, and job market trends.",
+        "Remote jobs are roles that allow you to work from home or any location."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "How to build trust in a relationship?",
+        "What are the signs of a healthy relationship?",
+        "How to handle conflicts?",
+        "What is the key to a strong relationship?"
+      ],
+      "responses": [
+        "Building trust requires honesty, communication, and consistency.",
+        "Healthy relationships are marked by mutual respect, trust, and support.",
+        "Handle conflicts by listening, empathizing, and finding a compromise.",
+        "The key to a strong relationship is open communication and shared values."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "environment",
+      "patterns": [
+        "How to reduce carbon footprint?",
+        "What are renewable energy sources?",
+        "How to recycle effectively?",
+        "What is global warming?"
+      ],
+      "responses": [
+        "Reduce your carbon footprint by using public transport and conserving energy.",
+        "Renewable energy sources include solar, wind, and hydro power.",
+        "Recycle effectively by sorting waste into recyclable and non-recyclable materials.",
+        "Global warming is the rise in Earth's average temperature due to increased greenhouse gases."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "What are the best travel destinations?",
+        "Can you recommend a place to visit?",
+        "What's the cheapest way to travel?",
+        "I want to explore new cities",
+        "Suggest a vacation spot"
+      ],
+      "responses": [
+        "I recommend visiting Paris for its rich history.",
+        "You should explore Bali for a tropical getaway.",
+        "Consider traveling to Prague for its stunning architecture."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "How to maintain good health?",
+        "What are the best exercises?",
+        "Can you suggest a healthy diet?",
+        "Tips for staying healthy?",
+        "What are common health issues?"
+      ],
+      "responses": [
+        "Drink plenty of water and stay active.",
+        "A balanced diet includes fruits, vegetables, and proteins.",
+        "Yoga is great for both mind and body."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "How to take care of a dog?",
+        "What is the best food for cats?",
+        "I want to adopt a pet",
+        "Tips for training pets?",
+        "What are common pet diseases?"
+      ],
+      "responses": [
+        "Ensure regular vet visits for your pet's health.",
+        "Dogs enjoy outdoor activities and require a balanced diet.",
+        "Cats love interactive toys and quiet spaces."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What are the best online courses?",
+        "How to improve study habits?",
+        "Can you suggest resources for learning?",
+        "Tips for effective studying?",
+        "What are popular educational platforms?"
+      ],
+      "responses": [
+        "Coursera and Udemy offer excellent online courses.",
+        "Set a schedule and take regular breaks while studying.",
+        "Read widely and practice what you learn."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "How to stay fit?",
+        "Can you suggest a workout routine?",
+        "What are the best exercises for weight loss?",
+        "How to build muscle?",
+        "Tips for staying motivated to exercise?"
+      ],
+      "responses": [
+        "Try a mix of cardio and strength training.",
+        "Consistency is key for fitness goals.",
+        "Start with light exercises and gradually increase intensity."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "How to deal with stress?",
+        "Tips for mental well-being?",
+        "What are signs of anxiety?",
+        "How to practice mindfulness?",
+        "How to improve mental health?"
+      ],
+      "responses": [
+        "Practice meditation and deep breathing.",
+        "Talk to a trusted friend or therapist.",
+        "Maintain a journal to express your thoughts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gardening",
+      "patterns": [
+        "How to start a garden?",
+        "What are the easiest plants to grow?",
+        "Tips for gardening beginners?",
+        "How to maintain indoor plants?",
+        "Best practices for organic gardening?"
+      ],
+      "responses": [
+        "Start with low-maintenance plants like succulents.",
+        "Ensure your plants get adequate sunlight and water.",
+        "Use natural fertilizers for healthy growth."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "Can you suggest easy recipes?",
+        "What are the basics of cooking?",
+        "How to cook healthy meals?",
+        "Tips for baking cakes?",
+        "What are popular cuisines?"
+      ],
+      "responses": [
+        "Try simple recipes like pasta or stir-fry.",
+        "Always prepare ingredients before cooking.",
+        "Experiment with spices for unique flavors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "photography",
+      "patterns": [
+        "How to improve photography skills?",
+        "What is the best camera for beginners?",
+        "Tips for taking better pictures?",
+        "What are common photography mistakes?",
+        "How to edit photos?"
+      ],
+      "responses": [
+        "Focus on lighting and composition.",
+        "Practice regularly to refine your skills.",
+        "Use editing software like Lightroom or Photoshop."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "entrepreneurship",
+      "patterns": [
+        "How to start a business?",
+        "What are the traits of successful entrepreneurs?",
+        "Can you suggest startup ideas?",
+        "Tips for managing a small business?",
+        "How to write a business plan?"
+      ],
+      "responses": [
+        "Identify a gap in the market and solve it.",
+        "Persistence and adaptability are key traits of entrepreneurs.",
+        "Network with others to gain insights and support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "How to build strong relationships?",
+        "Tips for effective communication?",
+        "How to resolve conflicts?",
+        "What are the signs of a healthy relationship?",
+        "How to maintain friendships?"
+      ],
+      "responses": [
+        "Listen actively and express empathy.",
+        "Be honest and respectful in your interactions.",
+        "Regular communication helps strengthen bonds."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "self_improvement",
+      "patterns": [
+        "How to become more productive?",
+        "Tips for building self-confidence?",
+        "How to set personal goals?",
+        "What are good habits to develop?",
+        "How to stay motivated?"
+      ],
+      "responses": [
+        "Break tasks into smaller steps to avoid overwhelm.",
+        "Celebrate small achievements to boost confidence.",
+        "Surround yourself with supportive people."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are some creative hobbies?",
+        "How to find a new hobby?",
+        "Can you suggest outdoor activities?",
+        "What are the benefits of having a hobby?",
+        "How to balance hobbies with work?"
+      ],
+      "responses": [
+        "Try painting, writing, or playing an instrument.",
+        "Outdoor activities like hiking and cycling are great for health.",
+        "Hobbies help reduce stress and improve focus."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What are the best sports for fitness?",
+        "How to start playing a sport?",
+        "Can you recommend team sports?",
+        "What are the rules of soccer?",
+        "Tips for improving in basketball?"
+      ],
+      "responses": [
+        "Swimming and running are excellent for overall fitness.",
+        "Join a local club to learn and play.",
+        "Team sports like soccer and basketball improve coordination."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gaming",
+      "patterns": [
+        "What are the most popular games?",
+        "How to improve in online gaming?",
+        "Can you suggest games for beginners?",
+        "What are the benefits of gaming?",
+        "How to avoid gaming addiction?"
+      ],
+      "responses": [
+        "Try games like Minecraft, Fortnite, or Among Us.",
+        "Practice regularly and watch tutorials.",
+        "Set time limits to ensure a balanced lifestyle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "investing",
+      "patterns": [
+        "How to start investing?",
+        "What are safe investment options?",
+        "Can you explain stocks and bonds?",
+        "Tips for first-time investors?",
+        "What are the risks of investing?"
+      ],
+      "responses": [
+        "Start with small amounts and diversify your investments.",
+        "Research before investing in any asset.",
+        "Consider consulting a financial advisor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "How to learn a new language?",
+        "What are the easiest languages to learn?",
+        "Can you suggest language learning apps?",
+        "How to improve vocabulary?",
+        "What are common language learning mistakes?"
+      ],
+      "responses": [
+        "Practice daily and use language apps like Duolingo.",
+        "Join language exchange groups to practice speaking.",
+        "Focus on vocabulary and grammar basics first."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "public_speaking",
+      "patterns": [
+        "How to improve public speaking skills?",
+        "Tips for overcoming stage fright?",
+        "How to prepare for a presentation?",
+        "What are common public speaking mistakes?",
+        "Can you suggest public speaking resources?"
+      ],
+      "responses": [
+        "Practice in front of a mirror or with friends.",
+        "Prepare thoroughly and stay confident.",
+        "Record yourself to identify areas of improvement."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "smart_home_overview",
+      "patterns": [
+        "What is a smart home?",
+        "How does a smart home work?",
+        "What devices are needed for a smart home?",
+        "What are the benefits of a smart home?",
+        "What is home automation and how does it work?",
+        "Can I control my smart home remotely?"
+      ],
+      "responses": [
+        "A smart home is a residence that uses internet-connected devices to manage and monitor systems like lighting, temperature, security, and more.",
+        "Smart homes use devices connected to the internet to automate tasks and improve efficiency, security, and comfort.",
+        "Common devices include smart thermostats, lights, security cameras, voice assistants, and smart locks.",
+        "Smart homes provide convenience, energy efficiency, enhanced security, and improved comfort.",
+        "Home automation uses devices to perform tasks automatically based on conditions, schedules, or commands.",
+        "Yes, smart homes can be controlled remotely via mobile apps or voice commands."
+      ]
+    },
+    {
+      "tag": "smart_home_security",
+      "patterns": [
+        "Can a smart home increase security?",
+        "How do smart locks work?",
+        "How do I make my home more secure with smart devices?",
+        "Can a smart home detect smoke or fire?",
+        "How secure are smart home systems?",
+        "How does a smart doorbell work?"
+      ],
+      "responses": [
+        "Smart homes can be equipped with security cameras, motion sensors, and alarms to protect against intruders.",
+        "Smart locks use technology like Bluetooth or Wi-Fi to lock and unlock doors remotely.",
+        "You can enhance home security by using smart cameras, motion sensors, and smart locks for real-time monitoring and alerts.",
+        "Yes, smart homes can detect smoke or fire through smoke detectors connected to the system.",
+        "Smart home systems can be secure if properly set up, with encryption and secure access protocols.",
+        "Smart doorbells allow you to see and speak to visitors remotely, and can be integrated with your security system."
+      ]
+    },
+    {
+      "tag": "smart_home_energy_efficiency",
+      "patterns": [
+        "Are smart homes energy-efficient?",
+        "Can a smart home save me money on electricity bills?",
+        "How do smart thermostats work?",
+        "How do smart lights adjust to different conditions?",
+        "What are energy-efficient appliances in a smart home?"
+      ],
+      "responses": [
+        "Yes, smart homes are designed to optimize energy use, saving on electricity and reducing environmental impact.",
+        "Smart homes can reduce energy usage by adjusting temperature, lighting, and appliance settings based on occupancy and time of day.",
+        "Smart thermostats learn your preferences and adjust the temperature based on occupancy and schedules.",
+        "Smart lights adjust brightness and color based on the time of day, occupancy, or your preferences.",
+        "Smart appliances include refrigerators, ovens, and washing machines that can be controlled via apps or voice assistants."
+      ]
+    },
+    {
+      "tag": "smart_home_setup",
+      "patterns": [
+        "How do I set up a smart home?",
+        "What should I consider when designing a smart home?",
+        "Can I integrate smart devices with existing home systems?",
+        "Do I need a smart home hub?",
+        "How do I upgrade or replace devices in my smart home?"
+      ],
+      "responses": [
+        "Setting up a smart home involves selecting compatible devices, connecting them to a central hub, and configuring automation settings.",
+        "Consider space optimization, compatibility of devices, and a stable internet connection when designing a smart home.",
+        "Yes, many smart devices can be integrated into existing home systems with the help of a smart hub or app.",
+        "A smart home hub connects various smart devices and allows for centralized control, but it isn't always necessary depending on the devices you choose.",
+        "Upgrading or replacing smart devices is simple; most systems allow you to add or remove devices without disrupting the existing setup."
+      ]
+    },
+    {
+      "tag": "smart_home_functionality",
+      "patterns": [
+        "How do smart cameras work?",
+        "What is the role of AI in a smart home?",
+        "What are smart sensors used for in a home?",
+        "Can I automate my daily routines with a smart home?",
+        "How does facial recognition work in a smart home?"
+      ],
+      "responses": [
+        "Smart cameras provide real-time video feeds and can be monitored remotely through apps or online.",
+        "AI allows devices to learn your habits, adjust settings accordingly, and even predict your needs in a smart home.",
+        "Smart sensors monitor conditions such as motion, light, temperature, and air quality to enhance comfort and security.",
+        "Yes, you can automate routines such as adjusting the thermostat, turning off lights, or locking doors at specific times.",
+        "Facial recognition allows for secure and convenient access control, identifying authorized individuals."
+      ]
+    },
+    {
+      "tag": "smart_home_health",
+      "patterns": [
+        "Can a smart home incorporate health monitoring?",
+        "What are the benefits of health monitoring in a smart home?",
+        "How can smart homes help with health tracking?",
+        "Can I track my vitals in a smart home?"
+      ],
+      "responses": [
+        "Smart homes can incorporate health monitoring through sensors and devices that track vital signs like heart rate and blood pressure.",
+        "Health monitoring in smart homes helps track vitals, detect anomalies, and provide personalized health insights.",
+        "Smart homes can track health parameters, alert users to any concerning changes, and help maintain overall wellness.",
+        "Yes, with the right health-monitoring devices, you can track vitals like heart rate, sleep patterns, and more."
+      ]
+    },
+    {
+      "tag": "smart_home_future",
+      "patterns": [
+        "What is the future of smart homes?",
+        "What innovations are expected in smart homes?",
+        "How will AI impact smart homes in the future?",
+        "Will smart homes become more affordable?"
+      ],
+      "responses": [
+        "The future of smart homes will involve more advanced AI, machine learning, and integration with renewable energy sources.",
+        "Innovations in AI, 5G connectivity, and smart grids will push smart homes towards greater efficiency and automation.",
+        "AI will allow smart homes to predict needs, automate routines, and offer even more personalized experiences in the future.",
+        "As technology advances and becomes more widespread, smart homes will become more affordable for the average consumer."
+      ]
+    },
+    {
+      "tag": "self_driving_car",
+      "patterns": [
+        "What is a self-driving car?",
+        "How do self-driving cars work?",
+        "What technology is used in autonomous vehicles?",
+        "How do smart cars navigate without a driver?",
+        "What are the main components of a self-driving car?",
+        "How do self-driving cars use AI?",
+        "What sensors are used in self-driving cars?",
+        "How do self-driving cars recognize pedestrians?",
+        "What are the benefits of autonomous driving?",
+        "How safe are self-driving cars?"
+      ],
+      "responses": [
+        "A self-driving car is an autonomous vehicle capable of sensing its environment and operating without human intervention.",
+        "Self-driving cars work by utilizing a combination of sensors like cameras, LiDAR, radar, and ultrasonic devices, which provide real-time data about the surroundings. AI algorithms process this data to make driving decisions.",
+        "The primary technologies used in autonomous vehicles include AI, machine learning, deep learning, and various sensors like LiDAR, radar, and cameras.",
+        "Smart cars navigate using advanced sensors and algorithms that help them interpret the road, avoid obstacles, and make decisions such as stopping at traffic signals.",
+        "The main components of a self-driving car include cameras, LiDAR, radar, computing systems, actuators, and AI software for processing sensor data and making driving decisions.",
+        "Self-driving cars use AI to process sensor data, predict potential obstacles, and make decisions in real time to ensure safe navigation.",
+        "Self-driving cars rely on sensors like cameras, LiDAR, and radar to detect pedestrians, traffic signals, road signs, and other important elements in their environment.",
+        "The benefits of autonomous driving include increased safety, reduced traffic congestion, greater accessibility for people with disabilities, and improved fuel efficiency.",
+        "Self-driving cars are designed with multiple layers of redundancy and safety features, but there are still challenges, such as handling complex road conditions and gaining regulatory approval."
+      ]
+    },
+    {
+      "tag": "self_driving_car_technology",
+      "patterns": [
+        "What sensors are used in self-driving cars?",
+        "How do AI and machine learning play a role in autonomous driving?",
+        "What is the role of LiDAR in self-driving cars?",
+        "What is the importance of radar in autonomous vehicles?",
+        "How do deep learning models improve autonomous driving?",
+        "What is TensorFlow's role in self-driving car technology?"
+      ],
+      "responses": [
+        "Self-driving cars use various sensors, including cameras, LiDAR, radar, and ultrasonic sensors to perceive their environment and make decisions in real-time.",
+        "AI and machine learning enable self-driving cars to learn from data, improve decision-making capabilities, and adapt to different driving conditions.",
+        "LiDAR is essential for providing precise 3D mapping of the car's surroundings, allowing it to detect objects and obstacles with high accuracy.",
+        "Radar in self-driving cars helps detect objects at longer ranges and in adverse weather conditions, complementing the data from other sensors like cameras and LiDAR.",
+        "Deep learning models process vast amounts of data from sensors, helping the car recognize objects, interpret road conditions, and make driving decisions based on past experiences.",
+        "TensorFlow and other machine learning frameworks like Keras are used to train models for object recognition, decision-making, and autonomous navigation in self-driving cars."
+      ]
+    },
+    {
+      "tag": "self_driving_car_safety",
+      "patterns": [
+        "How do self-driving cars avoid accidents?",
+        "Are autonomous vehicles safe to drive?",
+        "What are the challenges of ensuring safety in self-driving cars?",
+        "How do self-driving cars handle emergencies?",
+        "What are the safety features in smart cars?"
+      ],
+      "responses": [
+        "Self-driving cars avoid accidents by using advanced sensors to detect obstacles, pedestrians, and other vehicles. They rely on AI algorithms to make quick decisions in emergency situations.",
+        "Autonomous vehicles are designed with multiple layers of safety, including sensors for real-time monitoring, redundant systems for reliability, and AI to handle complex driving conditions.",
+        "Challenges include handling unexpected road conditions, complex traffic scenarios, and ensuring the vehicle can make quick, safe decisions in emergencies.",
+        "Self-driving cars can handle emergencies by relying on pre-programmed algorithms that prioritize safety, such as stopping when an obstacle is detected or taking alternative routes to avoid accidents.",
+        "Safety features include redundant systems, real-time sensors, emergency braking systems, and the ability to communicate with other vehicles or infrastructure to ensure smooth and safe driving."
+      ]
+    },
+    {
+      "tag": "self_driving_car_regulations",
+      "patterns": [
+        "What regulations are there for self-driving cars?",
+        "How is the government regulating autonomous vehicles?",
+        "What are the legal challenges of autonomous driving?",
+        "Will self-driving cars be legalized everywhere?",
+        "How do regulations impact the development of autonomous vehicles?"
+      ],
+      "responses": [
+        "Regulations for self-driving cars vary by region, but they typically cover safety standards, insurance, vehicle registration, and testing requirements. Many governments are still developing comprehensive frameworks.",
+        "Governments are regulating autonomous vehicles by setting safety standards, defining testing protocols, and addressing liability and insurance issues. Legal frameworks are still evolving.",
+        "Legal challenges include questions of liability in accidents involving self-driving cars, as well as the need for uniform laws across regions for testing and deployment.",
+        "Self-driving cars may not be legalized everywhere immediately due to regulatory, legal, and safety concerns. However, as the technology matures, many regions are exploring ways to integrate autonomous vehicles into their transportation systems.",
+        "Regulations play a crucial role in shaping the development of autonomous vehicles by ensuring safety standards and creating clear guidelines for manufacturers to follow."
+      ]
+    },
+    {
+      "tag": "charging_stations_overview",
+      "patterns": [
+        "What are wireless charging stations?",
+        "How do wireless charging stations work for electric vehicles?",
+        "What are the advantages of wireless charging stations?",
+        "Are wireless charging stations more efficient than wired ones?"
+      ],
+      "responses": [
+        "Wireless charging stations use inductive coupling to transfer power to electric vehicles without physical connections, offering convenience and reducing wear and tear on connectors.",
+        "Wireless charging stations work by generating an electromagnetic field through coils, which transfers power wirelessly to a receiver in the electric vehicle.",
+        "The advantages of wireless charging stations include convenience, reduced maintenance, and a seamless user experience without the hassle of cables.",
+        "While wireless charging is convenient, it is slightly less efficient than wired charging, but advancements in technology are improving its performance."
+      ]
+    },
+    {
+      "tag": "charging_stations_technology",
+      "patterns": [
+        "What technologies are used in wireless charging stations?",
+        "How does inductive coupling work in charging stations?",
+        "What is NFC technology in charging stations?",
+        "What sensors are used in wireless EV charging stations?"
+      ],
+      "responses": [
+        "Wireless charging stations use technologies like inductive coupling, NFC for payment, and IR sensors for vehicle detection.",
+        "Inductive coupling works by creating an electromagnetic field in a primary coil, which transfers energy to a secondary coil in the EV, enabling wireless charging.",
+        "NFC (Near Field Communication) in charging stations enables secure, contactless payments through devices like smartphones or RFID cards.",
+        "IR sensors detect the presence of vehicles approaching the station and activate the charging process once the vehicle is positioned correctly."
+      ]
+    },
+    {
+      "tag": "charging_stations_payment",
+      "patterns": [
+        "What is NFC in wireless charging stations?",
+        "How does NFC payment work at charging stations?",
+        "What are the benefits of NFC in EV charging stations?"
+      ],
+      "responses": [
+        "NFC in wireless charging stations allows secure and seamless payment transactions, eliminating the need for physical cash or credit cards.",
+        "NFC payment works by tapping a compatible device, such as a smartphone or RFID card, to authenticate and process payment securely and efficiently.",
+        "The benefits of NFC in EV charging stations include enhanced convenience, faster payment processes, and reduced need for manual intervention."
+      ]
+    },
+    {
+      "tag": "charging_stations_components",
+      "patterns": [
+        "What components are used in wireless charging stations?",
+        "What is the role of Arduino in charging stations?",
+        "How do relay modules work in charging stations?",
+        "What sensors are used in charging stations?"
+      ],
+      "responses": [
+        "Key components in wireless charging stations include Arduino controllers, IR sensors, NFC modules, and relay modules for managing power flow.",
+        "Arduino boards control the entire charging process, interfacing with sensors, relays, and payment modules to automate operations.",
+        "Relay modules are used to manage the power flow to the charging coils, ensuring efficient energy transfer and safety during the charging process.",
+        "IR sensors are essential for detecting the presence of vehicles and initiating the charging process automatically."
+      ]
+    },
+    {
+      "tag": "charging_stations_smart_cities",
+      "patterns": [
+        "How do smart cities use wireless charging stations?",
+        "What is the role of wireless charging stations in smart cities?",
+        "How do wireless charging stations contribute to sustainability in smart cities?"
+      ],
+      "responses": [
+        "Smart cities use wireless charging stations to improve the accessibility of EV charging, reduce urban clutter, and promote sustainable transportation.",
+        "Wireless charging stations play a crucial role in smart cities by integrating with IoT systems, enabling seamless data sharing and efficient energy management.",
+        "These stations support sustainability by encouraging the adoption of electric vehicles and reducing dependency on fossil fuels."
+      ]
+    },
+    {
+      "tag": "design_smart_city_overview",
+      "patterns": [
+        "What is the importance of design in smart cities?",
+        "Why is planning critical for smart cities?",
+        "How does design affect the functionality of smart cities?",
+        "What are the main objectives of smart city design?"
+      ],
+      "responses": [
+        "Design in smart cities is crucial for integrating technology, infrastructure, and sustainability to enhance urban living.",
+        "Planning is critical in smart cities to ensure efficient resource utilization, reduce environmental impact, and create livable urban spaces.",
+        "Effective design enables seamless integration of digital technologies, transportation systems, and public spaces, improving functionality and quality of life.",
+        "The main objectives of smart city design include sustainability, efficiency, adaptability, and enhanced services for residents."
+      ]
+    },
+    {
+      "tag": "design_smart_city_components",
+      "patterns": [
+        "What are the key components of a smart city?",
+        "How are materials selected for smart city models?",
+        "What are the roles of roads and buildings in a smart city design?",
+        "How does a smart car fit into the smart city model?"
+      ],
+      "responses": [
+        "Key components of a smart city include roads, buildings, smart vehicles, public spaces, and a local server for integration.",
+        "Materials for smart city models are chosen based on factors like weight, durability, and ease of assembly, such as MDF wood for buildings.",
+        "Roads and buildings are designed to optimize space, ensure accessibility, and support technologies like smart navigation and autonomous vehicles.",
+        "Smart cars play a central role in smart city design, integrating self-driving capabilities, wireless charging, and efficient parking systems."
+      ]
+    },
+    {
+      "tag": "design_smart_city_technical",
+      "patterns": [
+        "What are the technical aspects of designing smart cities?",
+        "How are road dimensions and layouts planned in smart cities?",
+        "What is the role of visual cues in smart city designs?",
+        "How are curves and turns designed for smart cars in smart cities?"
+      ],
+      "responses": [
+        "Technical aspects include road dimensions, building placements, and integration of IoT for seamless operation.",
+        "Road dimensions and layouts are planned to accommodate smart vehicles, ensuring smooth navigation and traffic flow.",
+        "Visual cues like road markings and building colors are essential for aiding smart vehicle sensors and improving navigation.",
+        "Curves and turns are designed based on the turning radius of smart cars to ensure stability and control."
+      ]
+    },
+    {
+      "tag": "design_smart_city_innovations",
+      "patterns": [
+        "What innovations are driving smart city design?",
+        "How are AI and IoT integrated into smart cities?",
+        "What is the future of smart city design?",
+        "How does renewable energy fit into smart city planning?"
+      ],
+      "responses": [
+        "Innovations like AI, IoT, and 5G are driving smart city designs toward higher efficiency and automation.",
+        "AI and IoT enable predictive maintenance, real-time data sharing, and smarter resource management in smart cities.",
+        "The future of smart city design includes adaptive systems, integration with renewable energy, and increased automation.",
+        "Renewable energy plays a vital role in smart city planning, reducing environmental impact and promoting sustainability."
+      ]
+    },
+    {
+      "tag": "design_smart_city_model",
+      "patterns": [
+        "How are smart city models developed?",
+        "What stages are involved in creating a smart city model?",
+        "How is space optimized in smart city models?",
+        "What is the role of CNC machines in building smart city models?"
+      ],
+      "responses": [
+        "Smart city models are developed through stages like material selection, layout planning, and component assembly.",
+        "The stages include selecting appropriate materials, defining dimensions, optimizing layouts, and assembling components.",
+        "Space optimization involves strategic placement of roads, buildings, and public spaces to maximize efficiency and accessibility.",
+        "CNC machines are used for precise cutting of materials, ensuring accuracy and consistency in the construction of smart city models."
+      ]
+    }
+  ]
+}

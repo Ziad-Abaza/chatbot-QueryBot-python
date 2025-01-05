@@ -1,6 +1,6 @@
 # Chatbot-QueryBot-Python
 
-This repository contains two versions of a chatbot built using Natural Language Processing (NLP) techniques. The chatbot can interact with users by processing input and predicting appropriate responses based on pre-defined intents. The models use different machine learning frameworks: **tflearn** and **Keras**.
+This repository contains multiple versions of a chatbot built using Natural Language Processing (NLP) techniques. The chatbot processes input from users and predicts appropriate responses based on predefined intents. The models utilize different machine learning frameworks, including **tflearn** and **Keras**.
 
 ## Versions:
 
@@ -30,6 +30,21 @@ This repository contains two versions of a chatbot built using Natural Language 
   - Uses `tflearn` to create a model with multiple hidden layers.
   - Trains the model and saves it as `model.tflearn`.
 
+### Version 3: `chatbot-QueryBot-V3` *(New)*
+- **Framework:** Under Development
+- **Model Type:** Improved version with enhanced features.
+- **Training Data:** Uses intents data stored in `intents.json` and additional datasets.
+- **Note:** `DataGenerator_Beta.py` is still under development and is not fully functional at this stage.
+
+#### Files:
+- `chatbot-QueryBot-V3.py`: The main script for the latest version of the chatbot, using updated techniques.
+- `DataGenerator_Beta.py`: Currently under development; not yet fully operational.
+- `Chatbot_Model_Fuzzy_Matching.py`: Implements fuzzy matching for more flexible response generation.
+- `Chatbot_Model_Intent_Classifier.py`: An updated classifier to improve intent detection.
+- `DataGenerator.py`: A utility for generating and processing data for the chatbot.
+- `intents.json`: JSON file containing predefined intents and responses.
+- `dataset.json`: A dataset to enhance training with additional examples.
+
 ## Requirements:
 
 - Python 3.x
@@ -50,21 +65,26 @@ pip install tensorflow tflearn nltk numpy
 
 1. Download or clone the repository.
 2. Navigate to the folder containing the project files.
-3. Run either version:
+3. Run any version:
 
 - For Version 1:
 ```bash
 python chatbot-QueryBot-V1/main.py
 ```
 
-- For Version 2:
+- For Version 2 (Keras implementation):
 ```bash
 python chatbot-QueryBot-V2/ChatBot_NLP_Model_keras.py
 ```
 
-Or if you prefer the `tflearn` version in Version 2:
+- For Version 2 (tflearn implementation):
 ```bash
 python chatbot-QueryBot-V2/ChatBot_NLP_Model_tflearn.py
+```
+
+- For Version 3 (if available):
+```bash
+python chatbot-QueryBot-V3/chatbot-QueryBot-V3.py
 ```
 
 4. Enter text and interact with the bot. Type `"quit"` to exit the conversation.
@@ -109,7 +129,9 @@ The `intents.json` file defines different patterns and their corresponding respo
 - Adding more advanced NLP models.
 - Integrating with external APIs for dynamic responses.
 - Expanding the intents dataset for a broader range of interactions.
+- Completing the development of `DataGenerator_Beta.py` for better data processing.
 
 ## License:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

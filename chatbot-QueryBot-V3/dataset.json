@@ -1,0 +1,2199 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "How are you",
+                "Hi",
+                "Is there? anyone",
+                "evening Good",
+                "Hello",
+                "Good day",
+                "hello",
+                "Is anyone there?",
+                "Good evening",
+                "what's up",
+                "How you are",
+                "up what's",
+                "hey",
+                "up Whats",
+                "Whats up",
+                "morning Good",
+                "Good morning"
+            ],
+            "responses": [
+                "Good day",
+                "Good morning",
+                "Whats up"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "I am Leaving",
+                "i have to go",
+                "go to have i",
+                "Goodbye",
+                "Leaving I am",
+                "go gotta",
+                "See you later",
+                "bye",
+                "gotta go",
+                "Have a Good day",
+                "cya",
+                "you See later"
+            ],
+            "responses": [
+                "Goodbye",
+                "I am Leaving",
+                "cya"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "what is age your",
+                "how old are you",
+                "your is what age",
+                "how are old you",
+                "are you old how",
+                "age your is what",
+                "how you are old",
+                "age what your is",
+                "what is your age",
+                "old how",
+                "age?"
+            ],
+            "responses": [
+                "age?",
+                "what is your age",
+                "how old are you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name? whats your",
+                "whats your name?",
+                "what call should you I",
+                "is what your name",
+                "who are you?",
+                "your name what is",
+                "is name what your",
+                "you? are who",
+                "what should I call you",
+                "name? your whats",
+                "what I call should you",
+                "what is your name",
+                "are who you?",
+                "who you? are"
+            ],
+            "responses": [
+                "who are you?",
+                "whats your name?",
+                "what is your name"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "can i tell you something",
+                "Id like to ask something",
+                "like ask to something Id",
+                "can help me? you",
+                "you what do can",
+                "what can you do",
+                "do can you what",
+                "tell can something i you",
+                "you can help me?",
+                "can you help me?",
+                "something can i tell you",
+                "something ask to Id like",
+                "i tell can you something",
+                "do what can you",
+                "can you do what",
+                "you do can what",
+                "ask Id like something to",
+                "like Id ask to something"
+            ],
+            "responses": [
+                "Id like to ask something",
+                "can you help me?",
+                "can i tell you something"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "Is it to rain? going",
+                "it rain? Is going to",
+                "today? the weather What's like",
+                "update Weather",
+                "forecast Weather",
+                "How's the weather?",
+                "How's weather? the",
+                "it Is to rain? going",
+                "What's the weather like today?",
+                "Weather forecast",
+                "weather? the How's",
+                "Is it going to rain?",
+                "Is it rain? going to",
+                "to going it Is rain?",
+                "to rain? it going Is",
+                "weather? How's the",
+                "Weather update"
+            ],
+            "responses": [
+                "Weather update",
+                "Weather forecast",
+                "Is it going to rain?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "the Can me tell you current time?",
+                "know you time? the Do",
+                "What time is it?",
+                "know Do the you time?",
+                "time? know you Do the",
+                "tell the Can me time? current you",
+                "What it? time is",
+                "Do you know the time?",
+                "current tell you time? me the Can",
+                "Can you tell me the current time?",
+                "it? What is time",
+                "time What it? is",
+                "Time please",
+                "time? know Do the you",
+                "please Time",
+                "me you tell time? current Can the",
+                "time? current Can tell the me you"
+            ],
+            "responses": [
+                "Do you know the time?",
+                "What time is it?",
+                "Time please"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "recommendations? Any food",
+                "snack I need a",
+                "Any recommendations? food",
+                "hungry I'm",
+                "food? What's favorite your",
+                "What I should for lunch? have",
+                "your food? favorite What's",
+                "What's your favorite food?",
+                "food? What's your favorite",
+                "I'm hungry",
+                "Any food recommendations?",
+                "I need a snack",
+                "What should I have for lunch?",
+                "for should What I have lunch?",
+                "lunch? for should What I have",
+                "snack I a need"
+            ],
+            "responses": [
+                "What should I have for lunch?",
+                "Any food recommendations?",
+                "What's your favorite food?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "a you recommend Can movie?",
+                "you movie? a recommend Can",
+                "I want to watch a film",
+                "movie Any suggestions?",
+                "film a to I watch want",
+                "to a What's movie good watch?",
+                "a movie? recommend you Can",
+                "recommend a movie? Can you",
+                "suggestions? movie Any",
+                "recommend movie? Can a you",
+                "to good watch? movie What's a",
+                "film a I want to watch",
+                "want a to watch I film",
+                "movie? Can recommend you a",
+                "What's a good movie to watch?",
+                "film want watch I to a",
+                "Can you recommend a movie?",
+                "Any movie suggestions?"
+            ],
+            "responses": [
+                "What's a good movie to watch?",
+                "Can you recommend a movie?",
+                "I want to watch a film"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "to need some relax I music",
+                "Can a recommend song? you",
+                "music What's genre? favorite your",
+                "some music relax I to need",
+                "you song? recommend Can a",
+                "good Any music playlists?",
+                "good music Any playlists?",
+                "song? you recommend Can a",
+                "your genre? What's favorite music",
+                "Can you recommend a song?",
+                "music playlists? good Any",
+                "I need some music to relax",
+                "relax some I need music to",
+                "What's your favorite music genre?",
+                "Can song? recommend you a",
+                "What's favorite genre? your music",
+                "to some music I relax need",
+                "a recommend you Can song?",
+                "Any good music playlists?"
+            ],
+            "responses": [
+                "What's your favorite music genre?",
+                "I need some music to relax",
+                "Can you recommend a song?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "favorite What's book? your",
+                "I want to read something",
+                "your book? favorite What's",
+                "Any recommendations? book",
+                "suggest novel? you good Can a",
+                "Can you suggest a good novel?",
+                "book? your What's favorite",
+                "Any book recommendations?",
+                "want something I read to",
+                "book Any recommendations?",
+                "book? favorite your What's",
+                "your favorite What's book?",
+                "I something to read want",
+                "What's your favorite book?",
+                "a good Can suggest novel? you",
+                "novel? good a Can you suggest",
+                "I want read something to",
+                "your What's book? favorite"
+            ],
+            "responses": [
+                "What's your favorite book?",
+                "Any book recommendations?",
+                "I want to read something"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "is computing? What cloud",
+                "is What cloud computing?",
+                "internet How the does work?",
+                "Can blockchain? you explain",
+                "is computing? cloud What",
+                "you explain Can blockchain?",
+                "is What computing? cloud",
+                "What cloud is computing?",
+                "does the internet How work?",
+                "computing? cloud is What",
+                "computing? cloud What is",
+                "artificial intelligence? What is",
+                "explain you blockchain? Can",
+                "What is cloud computing?",
+                "Can you explain blockchain?",
+                "you explain blockchain? Can",
+                "What is artificial intelligence?",
+                "How does the internet work?",
+                "What computing? is cloud"
+            ],
+            "responses": [
+                "What is artificial intelligence?",
+                "How does the internet work?",
+                "Can you explain blockchain?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "Can you recommend a programming language?",
+                "programming tips? Any",
+                "best for development? the language web What's",
+                "a Can recommend programming you language?",
+                "Can you recommend a language? programming",
+                "skills? coding How my can improve I",
+                "recommend programming Can a language? you",
+                "tips? Any programming",
+                "Any programming tips?",
+                "my can I improve skills? coding How",
+                "tips? programming Any",
+                "best What's language for web development? the",
+                "What's the best language for web development?",
+                "How can I improve my coding skills?",
+                "recommend a language? Can programming you",
+                "Can programming language? a you recommend",
+                "programming you Can language? recommend a",
+                "programming Any tips?"
+            ],
+            "responses": [
+                "Any programming tips?",
+                "How can I improve my coding skills?",
+                "Can you recommend a programming language?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "web_development",
+            "patterns": [
+                "I can web development? How learn",
+                "development? can How learn web I",
+                "skills are front-end for development? required What",
+                "for skills front-end are What development? required",
+                "can web How development? I learn",
+                "development? skills What front-end for are required",
+                "backend the best framework development? What's for",
+                "What's the best framework for backend development?",
+                "front-end for development? are What required skills",
+                "development? best for framework What's the backend",
+                "skills development? for required What are front-end",
+                "Any resources for learning HTML and CSS?",
+                "How can I learn web development?",
+                "for best What's framework backend development? the",
+                "the best What's development? for framework backend",
+                "What for skills required development? front-end are",
+                "What skills are required for front-end development?",
+                "framework What's for backend the best development?",
+                "development? What's best the framework backend for"
+            ],
+            "responses": [
+                "What skills are required for front-end development?",
+                "How can I learn web development?",
+                "Any resources for learning HTML and CSS?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "data_science",
+            "patterns": [
+                "is data What science?",
+                "Any data books? recommended science",
+                "science books? Any recommended data",
+                "data What is science?",
+                "science? I in start career can data a How",
+                "data recommended Any science books?",
+                "is science? data What",
+                "What skills are required for data analysis?",
+                "Any recommended data science books?",
+                "What is data science?",
+                "science data recommended books? Any",
+                "science? a start How can in data I career",
+                "data What science? is",
+                "How can data career start science? in a I",
+                "What data is science?",
+                "career in data I can science? a How start",
+                "a start data How science? can career in I",
+                "How can I start a career in data science?"
+            ],
+            "responses": [
+                "What skills are required for data analysis?",
+                "Any recommended data science books?",
+                "How can I start a career in data science?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cybersecurity",
+            "patterns": [
+                "can privacy? online protect How my I",
+                "my can How online I privacy? protect",
+                "What common cybersecurity are threats?",
+                "cybersecurity threats? common are What",
+                "What are common cybersecurity threats?",
+                "How I online my can protect privacy?",
+                "Any cybersecurity career tips?",
+                "online privacy? How my I protect can",
+                "online privacy? can How my protect I",
+                "What is cybersecurity?",
+                "Any tips? career cybersecurity",
+                "privacy? protect How I online my can",
+                "How I privacy? my can online protect",
+                "threats? are cybersecurity common What",
+                "threats? common are What cybersecurity",
+                "How can I protect my online privacy?",
+                "are cybersecurity threats? common What"
+            ],
+            "responses": [
+                "What are common cybersecurity threats?",
+                "How can I protect my online privacy?",
+                "What is cybersecurity?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "artificial_intelligence",
+            "patterns": [
+                "recommended Any AI courses?",
+                "How is AI used in different industries?",
+                "Any recommended AI courses?",
+                "What in are challenges AI? the",
+                "intelligence? is artificial What",
+                "used industries? is in different How AI",
+                "AI Any recommended courses?",
+                "the challenges AI? are What in",
+                "used is How industries? different AI in",
+                "is intelligence? What artificial",
+                "recommended courses? AI Any",
+                "artificial is What intelligence?",
+                "courses? AI recommended Any",
+                "What are the challenges in AI?",
+                "What in are AI? the challenges",
+                "artificial is intelligence? What",
+                "What is artificial intelligence?",
+                "used How in AI industries? different is",
+                "is AI used in different How industries?"
+            ],
+            "responses": [
+                "What are the challenges in AI?",
+                "Any recommended AI courses?",
+                "How is AI used in different industries?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "Any popular machine learning algorithms?",
+                "How machine work? does learning",
+                "algorithms? Any popular learning machine",
+                "What is machine learning?",
+                "is What machine learning?",
+                "machine learning work? does How",
+                "learning? How machine with to start",
+                "does work? machine learning How",
+                "learning? to start with How machine",
+                "learning? to How start with machine",
+                "learning? start How to with machine",
+                "machine How learning does work?",
+                "How to start with machine learning?",
+                "How learning work? machine does",
+                "machine Any learning popular algorithms?",
+                "learning? is What machine",
+                "machine learning Any popular algorithms?",
+                "How does machine learning work?",
+                "learning algorithms? machine popular Any"
+            ],
+            "responses": [
+                "Any popular machine learning algorithms?",
+                "What is machine learning?",
+                "How does machine learning work?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "internet_of_things",
+            "patterns": [
+                "Any examples of IoT applications?",
+                "devices are IoT How connected?",
+                "connected? How devices are IoT",
+                "examples IoT Any applications? of",
+                "examples applications? IoT of Any",
+                "the What (IoT)? Things of Internet is",
+                "What is the Internet of Things (IoT)?",
+                "What considerations for security are the IoT?",
+                "are IoT devices connected? How",
+                "IoT connected? How are devices",
+                "What for security the IoT? considerations are",
+                "the Internet is Things of What (IoT)?",
+                "security the considerations IoT? for What are",
+                "of Any applications? IoT examples",
+                "What are the security considerations for IoT?",
+                "of examples Any IoT applications?",
+                "How are IoT devices connected?",
+                "(IoT)? is of Things the Internet What",
+                "IoT connected? devices How are"
+            ],
+            "responses": [
+                "How are IoT devices connected?",
+                "What are the security considerations for IoT?",
+                "What is the Internet of Things (IoT)?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "mobile_app_development",
+            "patterns": [
+                "on How stores? app app publish to an",
+                "frameworks? development mobile app recommended Any",
+                "Any frameworks? mobile development recommended app",
+                "apps? How develop to mobile",
+                "to mobile apps? How develop",
+                "app stores? How on an publish app to",
+                "apps? mobile to develop How",
+                "to an on publish app app stores? How",
+                "How to publish an app on app stores?",
+                "app mobile Any development recommended frameworks?",
+                "develop How apps? to mobile",
+                "How develop mobile apps? to",
+                "Which programming languages are used for mobile app development?",
+                "to app an publish stores? How on app",
+                "to develop apps? How mobile",
+                "How to develop mobile apps?",
+                "an stores? to app publish How on app",
+                "app How publish to an stores? on app",
+                "Any recommended mobile app development frameworks?"
+            ],
+            "responses": [
+                "How to publish an app on app stores?",
+                "How to develop mobile apps?",
+                "Which programming languages are used for mobile app development?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "big_data",
+            "patterns": [
+                "tools Any big processing? for data",
+                "How is big data analyzed?",
+                "data big Any processing? tools for",
+                "big for Any tools processing? data",
+                "data? the are What challenges big in",
+                "Any tools for big data processing?",
+                "data? in What the big are challenges",
+                "for processing? big Any data tools",
+                "What are the challenges in big data?",
+                "is What big data?",
+                "is big How analyzed? data",
+                "big is data How analyzed?",
+                "What is big data?",
+                "for data big processing? tools Any",
+                "big analyzed? data is How",
+                "What data? is big",
+                "big What is data?",
+                "What data? big is",
+                "How data analyzed? big is"
+            ],
+            "responses": [
+                "What is big data?",
+                "How is big data analyzed?",
+                "What are the challenges in big data?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cyber_forensics",
+            "patterns": [
+                "What is cyber forensics?",
+                "How evidence forensics? collected is digital cyber in",
+                "the cyber forensics? are What in used tools",
+                "cyber What is forensics?",
+                "used What are the in forensics? cyber tools",
+                "What are the tools used in cyber forensics?",
+                "used forensics? in cyber the are What tools",
+                "How evidence is digital cyber forensics? in collected",
+                "used forensics? the cyber What in are tools",
+                "What tools forensics? cyber used in are the",
+                "How is digital evidence collected in cyber forensics?",
+                "evidence in is How collected cyber forensics? digital",
+                "forensics? is What cyber",
+                "tools forensics? used the in What cyber are",
+                "used forensics? the cyber are tools What in",
+                "digital cyber is in How collected evidence forensics?",
+                "career cyber Any forensics? in paths",
+                "digital How in collected is cyber evidence forensics?",
+                "Any career paths in cyber forensics?"
+            ],
+            "responses": [
+                "How is digital evidence collected in cyber forensics?",
+                "What are the tools used in cyber forensics?",
+                "Any career paths in cyber forensics?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "software_engineering",
+            "patterns": [
+                "of phases software life are the development the cycle? What",
+                "cycle? What phases life the of software development are the",
+                "What are the phases of the software development life cycle?",
+                "to engineer? software How a become",
+                "life of the the What are cycle? software development phases",
+                "of cycle? What development the the are software life phases",
+                "the software life the of What cycle? are development phases",
+                "Any engineering methodologies? software",
+                "How to become a software engineer?",
+                "engineering methodologies? software Any",
+                "Any software engineering methodologies?",
+                "software What development of life the cycle? the phases are",
+                "cycle? development life software the the are phases of What",
+                "software the What development phases of cycle? life the are",
+                "a to software become engineer? How",
+                "software the development are life the phases cycle? of What",
+                "What is software engineering?",
+                "is software engineering? What",
+                "methodologies? engineering Any software"
+            ],
+            "responses": [
+                "What are the phases of the software development life cycle?",
+                "What is software engineering?",
+                "Any software engineering methodologies?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "data_privacy",
+            "patterns": [
+                "How to personal protect data?",
+                "breaches? are consequences What of the data",
+                "What is data privacy?",
+                "privacy? What data is",
+                "data regulations? are What privacy the",
+                "are the breaches? What of consequences data",
+                "privacy? What is data",
+                "data privacy? is What",
+                "What are the consequences of data breaches?",
+                "privacy are What regulations? the data",
+                "is What privacy? data",
+                "regulations? data What privacy are the",
+                "personal How protect data? to",
+                "How to protect personal data?",
+                "is data What privacy?",
+                "to How protect personal data?",
+                "are consequences What the data of breaches?",
+                "What are the data privacy regulations?"
+            ],
+            "responses": [
+                "What are the data privacy regulations?",
+                "How to protect personal data?",
+                "What are the consequences of data breaches?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "blockchain",
+            "patterns": [
+                "What blockchain? is",
+                "blockchain? is What",
+                "What is a smart contract?",
+                "does blockchain How ensure security?",
+                "ensure security? blockchain How does",
+                "blockchain? real-world Any applications of",
+                "blockchain? real-world applications of Any",
+                "blockchain? Any of real-world applications",
+                "is a What smart contract?",
+                "smart is a What contract?",
+                "Any real-world applications of blockchain?",
+                "How does blockchain ensure security?",
+                "What is blockchain?",
+                "real-world blockchain? Any applications of",
+                "blockchain How does ensure security?",
+                "does How security? ensure blockchain",
+                "Any blockchain? real-world applications of",
+                "smart What a contract? is"
+            ],
+            "responses": [
+                "Any real-world applications of blockchain?",
+                "What is blockchain?",
+                "How does blockchain ensure security?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fitness",
+            "patterns": [
+                "the for best What are loss? weight exercises",
+                "How to build muscle?",
+                "What are the best exercises for weight loss?",
+                "suggest you Can workout a routine?",
+                "for best What the loss? weight exercises are",
+                "the best weight What exercises loss? are for",
+                "build to How muscle?",
+                "muscle? to build How",
+                "to fit? How stay",
+                "build muscle? How to",
+                "fit? to How stay",
+                "Can you suggest a workout routine?",
+                "build muscle? to How",
+                "How fit? to stay",
+                "are exercises loss? weight the best for What",
+                "workout you routine? Can a suggest",
+                "the loss? for weight best What exercises are",
+                "Tips for staying motivated to exercise?",
+                "How to stay fit?",
+                "loss? exercises the weight What best for are"
+            ],
+            "responses": [
+                "How to build muscle?",
+                "Can you suggest a workout routine?",
+                "How to stay fit?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "best destinations? travel the are What",
+                "What's to way cheapest the travel?",
+                "What's travel? way the to cheapest",
+                "a Suggest spot vacation",
+                "visit? to you Can place recommend a",
+                "Can you visit? a to recommend place",
+                "are destinations? the best What travel",
+                "I cities new want to explore",
+                "What travel the destinations? best are",
+                "a to you place Can recommend visit?",
+                "Can you recommend a place to visit?",
+                "destinations? are the What travel best",
+                "spot vacation Suggest a",
+                "Suggest a vacation spot",
+                "to place you Can visit? a recommend",
+                "vacation a Suggest spot",
+                "a spot vacation Suggest",
+                "I want to explore new cities",
+                "What's the cheapest way to travel?",
+                "What are the best travel destinations?"
+            ],
+            "responses": [
+                "Can you recommend a place to visit?",
+                "Suggest a vacation spot",
+                "What are the best travel destinations?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "stress? with How deal to",
+                "of are signs anxiety? What",
+                "How to improve mental health?",
+                "to mental improve How health?",
+                "well-being? for Tips mental",
+                "Tips for mental well-being?",
+                "deal stress? to How with",
+                "deal How to stress? with",
+                "Tips well-being? for mental",
+                "How to deal with stress?",
+                "practice to How mindfulness?",
+                "How to practice mindfulness?",
+                "How improve health? to mental",
+                "practice How to mindfulness?",
+                "with to How stress? deal",
+                "for mental well-being? Tips",
+                "Tips for well-being? mental",
+                "health? How improve to mental",
+                "What are signs of anxiety?",
+                "practice mindfulness? to How"
+            ],
+            "responses": [
+                "What are signs of anxiety?",
+                "Tips for mental well-being?",
+                "How to practice mindfulness?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "science",
+            "patterns": [
+                "What's the latest discovery in science?",
+                "What's in discovery latest the science?",
+                "science fact. me Tell fun a",
+                "Tell fact. fun me science a",
+                "black Can explain you holes?",
+                "How work? gravity does",
+                "Can you explain black holes?",
+                "How gravity work? does",
+                "me Tell fun fact. a science",
+                "How does gravity work?",
+                "me a fact. science Tell fun",
+                "gravity work? How does",
+                "latest science? in the discovery What's",
+                "Tell me a fun science fact.",
+                "you black explain Can holes?",
+                "gravity work? does How",
+                "latest the science? What's in discovery",
+                "holes? explain black Can you",
+                "me science a Tell fact. fun"
+            ],
+            "responses": [
+                "What's the latest discovery in science?",
+                "Can you explain black holes?",
+                "Tell me a fun science fact."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "space",
+            "patterns": [
+                "on other there planets? Is life",
+                "What supernova? a is",
+                "is Milky What Way? the",
+                "What is a supernova?",
+                "a supernova? What is",
+                "Milky is Way? What the",
+                "What the Milky Way? is",
+                "Is other life on planets? there",
+                "Is there life on other planets?",
+                "How are system? our planets in many solar",
+                "Way? What is the Milky",
+                "What is the Milky Way?",
+                "a What supernova? is",
+                "How many planets are in our solar system?",
+                "supernova? What is a",
+                "a supernova? is What",
+                "in How many are solar our system? planets",
+                "system? many planets How in solar our are"
+            ],
+            "responses": [
+                "How many planets are in our solar system?",
+                "What is a supernova?",
+                "Is there life on other planets?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "education",
+            "patterns": [
+                "study habits? How improve to",
+                "best courses? the online What are",
+                "platforms? What educational are popular",
+                "effective for studying? Tips",
+                "What are educational platforms? popular",
+                "learning? suggest for Can you resources",
+                "learning? resources you suggest Can for",
+                "How to improve study habits?",
+                "What are the best online courses?",
+                "resources suggest learning? you Can for",
+                "effective Tips studying? for",
+                "studying? for effective Tips",
+                "suggest you for Can resources learning?",
+                "Tips for effective studying?",
+                "studying? for Tips effective",
+                "best the courses? online are What",
+                "Tips effective studying? for",
+                "Can you suggest resources for learning?",
+                "What are popular educational platforms?",
+                "you resources for suggest learning? Can"
+            ],
+            "responses": [
+                "Can you suggest resources for learning?",
+                "What are the best online courses?",
+                "What are popular educational platforms?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "parenting",
+            "patterns": [
+                "teach discipline? to kids How",
+                "tips? What good are parenting",
+                "tips? are What parenting good",
+                "How stubborn to child? a with deal",
+                "teach How kids to discipline?",
+                "time to spend quality children? with How",
+                "with child? to How stubborn deal a",
+                "How to spend quality time with children?",
+                "discipline? How kids to teach",
+                "with time How to spend children? quality",
+                "What are good parenting tips?",
+                "How with time children? quality to spend",
+                "What parenting tips? good are",
+                "How to deal with a stubborn child?",
+                "teach How kids discipline? to",
+                "How to teach kids discipline?",
+                "to stubborn with a How child? deal",
+                "children? time with How spend to quality",
+                "to spend children? with time quality How"
+            ],
+            "responses": [
+                "How to deal with a stubborn child?",
+                "How to spend quality time with children?",
+                "What are good parenting tips?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "pets",
+            "patterns": [
+                "is food best for the cats? What",
+                "want a pet I to adopt",
+                "best for food the cats? What is",
+                "to care take dog? a of How",
+                "I to adopt a pet want",
+                "Tips training pets? for",
+                "What is the best food for cats?",
+                "for training Tips pets?",
+                "What cats? food best the is for",
+                "Tips for training pets?",
+                "adopt to want I pet a",
+                "What the cats? for food is best",
+                "to take of How a dog? care",
+                "How to take care of a dog?",
+                "What are common pet diseases?",
+                "I want to adopt a pet",
+                "pet common What are diseases?",
+                "How dog? a care take to of",
+                "diseases? What common pet are",
+                "Tips pets? training for"
+            ],
+            "responses": [
+                "How to take care of a dog?",
+                "What is the best food for cats?",
+                "Tips for training pets?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "languages",
+            "patterns": [
+                "What are the easiest languages to learn?",
+                "to vocabulary? improve How",
+                "the languages easiest learn? What are to",
+                "How new a learn language? to",
+                "How improve vocabulary? to",
+                "the What to languages easiest are learn?",
+                "What are common language learning mistakes?",
+                "How to language? new learn a",
+                "are common mistakes? language What learning",
+                "language mistakes? What common learning are",
+                "How to improve vocabulary?",
+                "to the learn? are What easiest languages",
+                "How vocabulary? to improve",
+                "are the learn? to easiest languages What",
+                "are language common mistakes? What learning",
+                "learn? the to languages easiest What are",
+                "language? How new learn a to",
+                "How to learn a new language?",
+                "Can you suggest language learning apps?"
+            ],
+            "responses": [
+                "What are common language learning mistakes?",
+                "How to learn a new language?",
+                "How to improve vocabulary?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "history",
+            "patterns": [
+                "Tell me about World War II.",
+                "What Wall is China? Great of the",
+                "World me War about Tell II.",
+                "What is the Great Wall of China?",
+                "the of president Who first USA? the was",
+                "II. World me about Tell War",
+                "was When pyramids Egypt the built? of",
+                "of pyramids built? was When Egypt the",
+                "Who was the first president of the USA?",
+                "Great the China? of is Wall What",
+                "was When Egypt of the pyramids built?",
+                "first USA? the Who of was president the",
+                "built? the When of Egypt pyramids was",
+                "World II. me Tell about War",
+                "Great China? is the What of Wall",
+                "China? Great the is Wall What of",
+                "When was the pyramids of Egypt built?",
+                "president of the the first USA? was Who",
+                "Great of China? the is What Wall"
+            ],
+            "responses": [
+                "When was the pyramids of Egypt built?",
+                "Tell me about World War II.",
+                "Who was the first president of the USA?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "philosophy",
+            "patterns": [
+                "existentialism? Can you explain",
+                "life? is What the meaning of",
+                "existentialism? you explain Can",
+                "is utilitarianism? What",
+                "the What meaning is of life?",
+                "Who are famous philosophers?",
+                "What is the meaning of life?",
+                "is What the life? of meaning",
+                "What is utilitarianism?",
+                "Can you existentialism? explain",
+                "Can you explain existentialism?",
+                "existentialism? you Can explain",
+                "you explain Can existentialism?",
+                "famous philosophers? are Who",
+                "of life? the What is meaning",
+                "explain you existentialism? Can",
+                "are philosophers? famous Who"
+            ],
+            "responses": [
+                "Who are famous philosophers?",
+                "What is the meaning of life?",
+                "Can you explain existentialism?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cooking",
+            "patterns": [
+                "suggest easy recipes? you Can",
+                "How to cook healthy meals?",
+                "of the basics cooking? What are",
+                "What the of basics are cooking?",
+                "What are the basics of cooking?",
+                "What are popular cuisines?",
+                "easy recipes? Can suggest you",
+                "cuisines? What are popular",
+                "Tips baking cakes? for",
+                "Can you suggest easy recipes?",
+                "basics cooking? are of the What",
+                "to How cook meals? healthy",
+                "Tips for cakes? baking",
+                "cuisines? popular What are",
+                "meals? to How cook healthy",
+                "healthy How meals? cook to",
+                "Tips for baking cakes?",
+                "How healthy meals? cook to"
+            ],
+            "responses": [
+                "Tips for baking cakes?",
+                "What are the basics of cooking?",
+                "Can you suggest easy recipes?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "Can healthy a you suggest diet?",
+                "best exercises? What are the",
+                "What are common health issues?",
+                "healthy? Tips staying for",
+                "What are the best exercises?",
+                "How to maintain good health?",
+                "health? to good How maintain",
+                "a diet? Can you suggest healthy",
+                "What are exercises? the best",
+                "health What issues? are common",
+                "for Tips staying healthy?",
+                "Can you suggest a healthy diet?",
+                "health? How maintain good to",
+                "the exercises? What best are",
+                "the are best What exercises?",
+                "What exercises? the best are",
+                "Tips for staying healthy?",
+                "health common What are issues?",
+                "to health? How maintain good"
+            ],
+            "responses": [
+                "What are common health issues?",
+                "Can you suggest a healthy diet?",
+                "Tips for staying healthy?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "finance",
+            "patterns": [
+                "invest How stocks? to in",
+                "How to invest in stocks?",
+                "in invest How to stocks?",
+                "What are the types of loans?",
+                "in to How invest stocks?",
+                "money? to save How",
+                "How to save money?",
+                "are loans? the of What types",
+                "stocks? invest in How to",
+                "save How to money?",
+                "types What of the are loans?",
+                "types are loans? of What the",
+                "a What budget? is",
+                "stocks? to How in invest",
+                "to How stocks? in invest",
+                "What is a budget?",
+                "to stocks? in invest How",
+                "stocks? How in to invest"
+            ],
+            "responses": [
+                "How to invest in stocks?",
+                "What is a budget?",
+                "How to save money?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "improving for in basketball? Tips",
+                "sport? a to playing start How",
+                "basketball? in Tips improving for",
+                "What are the best sports for fitness?",
+                "basketball? in improving Tips for",
+                "What fitness? are the best sports for",
+                "improving Tips basketball? in for",
+                "fitness? best the are for sports What",
+                "basketball? in for improving Tips",
+                "a to How sport? playing start",
+                "basketball? improving in Tips for",
+                "Tips in basketball? improving for",
+                "soccer? What the rules are of",
+                "Can you recommend team sports?",
+                "Tips for improving in basketball?",
+                "How to start playing a sport?",
+                "What are the rules of soccer?",
+                "are of rules What the soccer?",
+                "improving basketball? in for Tips",
+                "for sports best fitness? the are What"
+            ],
+            "responses": [
+                "What are the best sports for fitness?",
+                "Tips for improving in basketball?",
+                "Can you recommend team sports?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "entertainment",
+            "patterns": [
+                "comedy the movie? best What is",
+                "What is the best comedy movie?",
+                "is the best movie? comedy What",
+                "are the movies? What latest",
+                "Can you recommend a TV series?",
+                "a TV recommend series? Can you",
+                "movie? comedy What is best the",
+                "What are the latest movies?",
+                "Who are famous actors?",
+                "are latest What the movies?",
+                "Who are actors? famous",
+                "are What movies? the latest",
+                "the latest movies? are What",
+                "the are movies? What latest",
+                "Who famous are actors?",
+                "are Who famous actors?",
+                "are actors? famous Who",
+                "movie? What the comedy best is"
+            ],
+            "responses": [
+                "Who are famous actors?",
+                "What is the best comedy movie?",
+                "What are the latest movies?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "productivity",
+            "patterns": [
+                "How avoid procrastination? to",
+                "avoid How procrastination? to",
+                "are productivity good tools? What",
+                "What good are productivity tools?",
+                "to goals? set How",
+                "avoid to How procrastination?",
+                "How to avoid procrastination?",
+                "How to set goals?",
+                "What are good productivity tools?",
+                "to set How goals?",
+                "to procrastination? How avoid",
+                "How to manage time effectively?",
+                "time How manage to effectively?",
+                "set How to goals?",
+                "to procrastination? avoid How",
+                "are What good tools? productivity",
+                "effectively? to manage How time"
+            ],
+            "responses": [
+                "How to set goals?",
+                "How to avoid procrastination?",
+                "How to manage time effectively?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "career",
+            "patterns": [
+                "are common interview questions? What",
+                "choose How to a career?",
+                "How to write a resume?",
+                "are remote What jobs?",
+                "questions? What common interview are",
+                "How to choose a career?",
+                "are remote jobs? What",
+                "What are common interview questions?",
+                "to a choose career? How",
+                "What are remote jobs?",
+                "a choose career? How to",
+                "choose a How to career?",
+                "common What interview questions? are",
+                "are What remote jobs?",
+                "to resume? a write How",
+                "are What jobs? remote",
+                "interview common What questions? are",
+                "What are jobs? remote"
+            ],
+            "responses": [
+                "What are remote jobs?",
+                "How to write a resume?",
+                "How to choose a career?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "relationships",
+            "patterns": [
+                "to maintain How friendships?",
+                "How to build strong relationships?",
+                "How to resolve conflicts?",
+                "to How resolve conflicts?",
+                "friendships? maintain to How",
+                "maintain to friendships? How",
+                "healthy relationship? are signs a the What of",
+                "communication? effective Tips for",
+                "effective communication? Tips for",
+                "are of the a What healthy signs relationship?",
+                "for effective Tips communication?",
+                "Tips for effective communication?",
+                "for Tips communication? effective",
+                "How to friendships? maintain",
+                "What are the signs of a healthy relationship?",
+                "the a signs of What healthy relationship? are",
+                "strong build relationships? How to",
+                "How to maintain friendships?",
+                "resolve How conflicts? to"
+            ],
+            "responses": [
+                "How to build strong relationships?",
+                "Tips for effective communication?",
+                "How to maintain friendships?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "environment",
+            "patterns": [
+                "How to carbon reduce footprint?",
+                "global is warming? What",
+                "are energy renewable What sources?",
+                "energy sources? are What renewable",
+                "What is global warming?",
+                "reduce How footprint? carbon to",
+                "What warming? is global",
+                "What are renewable sources? energy",
+                "sources? energy What are renewable",
+                "What are renewable energy sources?",
+                "sources? renewable What energy are",
+                "What renewable energy sources? are",
+                "recycle to effectively? How",
+                "warming? What global is",
+                "How recycle to effectively?",
+                "How to reduce carbon footprint?",
+                "How to recycle effectively?",
+                "effectively? recycle to How"
+            ],
+            "responses": [
+                "How to reduce carbon footprint?",
+                "What are renewable energy sources?",
+                "What is global warming?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "gardening",
+            "patterns": [
+                "maintain How to indoor plants?",
+                "garden? How to start a",
+                "How to maintain indoor plants?",
+                "a to garden? How start",
+                "Tips beginners? for gardening",
+                "for gardening? practices Best organic",
+                "What easiest plants the are grow? to",
+                "to How maintain plants? indoor",
+                "a garden? start How to",
+                "to How plants? indoor maintain",
+                "Best practices for organic gardening?",
+                "How to start a garden?",
+                "beginners? gardening Tips for",
+                "garden? How a to start",
+                "Tips for gardening beginners?",
+                "How to garden? a start",
+                "What are the easiest plants to grow?",
+                "garden? to start How a",
+                "the What easiest are grow? plants to"
+            ],
+            "responses": [
+                "Tips for gardening beginners?",
+                "Best practices for organic gardening?",
+                "How to start a garden?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "photography",
+            "patterns": [
+                "How photography skills? to improve",
+                "photography common are What mistakes?",
+                "are What mistakes? photography common",
+                "Tips for taking better pictures?",
+                "photography improve to skills? How",
+                "How to improve photography skills?",
+                "What is the best camera for beginners?",
+                "How edit to photos?",
+                "What are common photography mistakes?",
+                "pictures? taking better for Tips",
+                "for beginners? the What is camera best",
+                "best camera the is What beginners? for",
+                "common are mistakes? photography What",
+                "How photos? edit to",
+                "is best What for beginners? camera the",
+                "for beginners? the is best What camera",
+                "How to edit photos?",
+                "How to skills? improve photography",
+                "best the beginners? camera for is What"
+            ],
+            "responses": [
+                "What is the best camera for beginners?",
+                "Tips for taking better pictures?",
+                "How to improve photography skills?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "entrepreneurship",
+            "patterns": [
+                "How to a business? start",
+                "How to start a business?",
+                "How start business? to a",
+                "Can you suggest startup ideas?",
+                "of the are traits successful What entrepreneurs?",
+                "How a to business? start",
+                "What are the traits of successful entrepreneurs?",
+                "How a write to business plan?",
+                "you ideas? suggest startup Can",
+                "Tips small a managing business? for",
+                "plan? business to a write How",
+                "entrepreneurs? successful traits are What of the",
+                "business? a How start to",
+                "ideas? Can startup you suggest",
+                "suggest you startup ideas? Can",
+                "How to write a business plan?",
+                "a to plan? business How write",
+                "Tips for managing a small business?",
+                "start a to business? How"
+            ],
+            "responses": [
+                "What are the traits of successful entrepreneurs?",
+                "Can you suggest startup ideas?",
+                "Tips for managing a small business?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_improvement",
+            "patterns": [
+                "How to become more productive?",
+                "How to stay motivated?",
+                "are good What to develop? habits",
+                "self-confidence? Tips for building",
+                "How more productive? become to",
+                "to motivated? stay How",
+                "stay motivated? How to",
+                "habits to What are good develop?",
+                "building for Tips self-confidence?",
+                "How productive? more to become",
+                "habits What to are develop? good",
+                "How to set personal goals?",
+                "to How motivated? stay",
+                "goals? personal How set to",
+                "What are good habits to develop?",
+                "Tips for building self-confidence?",
+                "building self-confidence? for Tips",
+                "personal set to goals? How"
+            ],
+            "responses": [
+                "How to become more productive?",
+                "Tips for building self-confidence?",
+                "What are good habits to develop?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hobbies",
+            "patterns": [
+                "are some What hobbies? creative",
+                "creative some hobbies? are What",
+                "to with hobbies work? balance How",
+                "Can you suggest outdoor activities?",
+                "What are the benefits of having a hobby?",
+                "work? hobbies with balance to How",
+                "How with work? hobbies balance to",
+                "What a hobby? the are having of benefits",
+                "are What hobbies? some creative",
+                "to How find hobby? new a",
+                "outdoor activities? you Can suggest",
+                "How to balance hobbies with work?",
+                "are hobbies? What creative some",
+                "are hobbies? creative What some",
+                "you suggest activities? outdoor Can",
+                "suggest you activities? Can outdoor",
+                "How to find a new hobby?",
+                "What are some creative hobbies?",
+                "are having a benefits hobby? the of What",
+                "some are creative hobbies? What"
+            ],
+            "responses": [
+                "What are some creative hobbies?",
+                "What are the benefits of having a hobby?",
+                "How to find a new hobby?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "gaming",
+            "patterns": [
+                "What are the most popular games?",
+                "What the of benefits are gaming?",
+                "the What are games? popular most",
+                "Can you suggest games for beginners?",
+                "you beginners? for Can games suggest",
+                "gaming How to avoid addiction?",
+                "addiction? gaming How avoid to",
+                "games? are the popular most What",
+                "benefits of the gaming? What are",
+                "How to improve in online gaming?",
+                "gaming? in improve to online How",
+                "you games for Can beginners? suggest",
+                "How in to gaming? improve online",
+                "most popular games? What are the",
+                "What are the benefits of gaming?",
+                "games? What most are popular the",
+                "gaming? online improve in How to",
+                "the games? What are most popular",
+                "How to avoid gaming addiction?",
+                "for suggest games you Can beginners?"
+            ],
+            "responses": [
+                "Can you suggest games for beginners?",
+                "What are the most popular games?",
+                "How to avoid gaming addiction?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "investing",
+            "patterns": [
+                "What are safe investment options?",
+                "What safe are options? investment",
+                "investment options? safe are What",
+                "the What of are investing? risks",
+                "Can explain you bonds? and stocks",
+                "Can you explain stocks and bonds?",
+                "How investing? start to",
+                "How to start investing?",
+                "What are the risks of investing?",
+                "investing? How start to",
+                "to start How investing?",
+                "first-time for Tips investors?",
+                "investing? to How start",
+                "bonds? and explain stocks you Can",
+                "options? What safe are investment",
+                "Tips for first-time investors?",
+                "What are options? safe investment",
+                "you and stocks Can explain bonds?",
+                "of risks What are investing? the"
+            ],
+            "responses": [
+                "What are the risks of investing?",
+                "How to start investing?",
+                "What are safe investment options?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "public_speaking",
+            "patterns": [
+                "Tips for overcoming stage fright?",
+                "How to prepare for a presentation?",
+                "common public speaking are What mistakes?",
+                "What are common public speaking mistakes?",
+                "Can you suggest public speaking resources?",
+                "to How improve public skills? speaking",
+                "stage for overcoming fright? Tips",
+                "How to improve public speaking skills?",
+                "presentation? to a prepare How for",
+                "resources? suggest you speaking public Can",
+                "How to for presentation? a prepare",
+                "mistakes? public common What speaking are",
+                "to speaking public skills? How improve",
+                "to How presentation? a prepare for",
+                "stage Tips overcoming fright? for",
+                "presentation? for a How to prepare",
+                "public resources? you Can speaking suggest",
+                "for Tips stage overcoming fright?",
+                "Can you public suggest resources? speaking",
+                "What speaking mistakes? public common are"
+            ],
+            "responses": [
+                "How to prepare for a presentation?",
+                "What are common public speaking mistakes?",
+                "Tips for overcoming stage fright?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_overview",
+            "patterns": [
+                "my remotely? Can home smart control I",
+                "What is a smart home?",
+                "smart home a work? does How",
+                "What is home automation and how does it work?",
+                "is a smart What home?",
+                "a home? What is smart",
+                "is home automation and it does What how work?",
+                "Can I control my smart home remotely?",
+                "What are the benefits of a smart home?",
+                "home? a What smart is",
+                "remotely? control I my smart Can home",
+                "What devices are needed for a smart home?",
+                "are devices What for home? a smart needed",
+                "for What a are needed smart devices home?",
+                "What is how does automation work? it home and",
+                "How does a smart home work?",
+                "does smart a How work? home",
+                "devices home? smart a for needed What are",
+                "a work? How home does smart",
+                "benefits the home? are smart a of What",
+                "work? home How smart a does"
+            ],
+            "responses": [
+                "What devices are needed for a smart home?",
+                "What is home automation and how does it work?",
+                "How does a smart home work?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_security",
+            "patterns": [
+                "Can a smart home increase security?",
+                "How locks smart do work?",
+                "home more secure devices? make smart my do with I How",
+                "doorbell a work? How does smart",
+                "a home smart security? Can increase",
+                "Can increase security? a home smart",
+                "Can a smart home detect smoke or fire?",
+                "does smart work? How a doorbell",
+                "detect fire? Can or a smoke home smart",
+                "do How devices? I home smart with my more secure make",
+                "How do I make my home more secure with smart devices?",
+                "locks smart do work? How",
+                "home Can smart security? increase a",
+                "work? smart doorbell a does How",
+                "How do smart locks work?",
+                "smart locks do How work?",
+                "How does a smart doorbell work?",
+                "How secure are smart home systems?",
+                "do devices? I my home make more with How smart secure",
+                "make more home with devices? do secure I How smart my",
+                "home Can smart smoke detect fire? or a"
+            ],
+            "responses": [
+                "How does a smart doorbell work?",
+                "How do I make my home more secure with smart devices?",
+                "Can a smart home detect smoke or fire?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_energy_efficiency",
+            "patterns": [
+                "smart home? a What are appliances in energy-efficient",
+                "Can electricity smart on money bills? home me a save",
+                "conditions? different smart lights adjust to How do",
+                "How do smart thermostats work?",
+                "Can a smart home save me money on electricity bills?",
+                "smart Are homes energy-efficient?",
+                "different do lights smart to adjust How conditions?",
+                "do thermostats smart How work?",
+                "What energy-efficient smart are home? a appliances in",
+                "Are smart homes energy-efficient?",
+                "smart are appliances energy-efficient home? in What a",
+                "smart How different adjust do to conditions? lights",
+                "electricity money save home smart me Can on bills? a",
+                "a on smart me electricity home Can money save bills?",
+                "How do smart lights adjust to different conditions?",
+                "What are energy-efficient appliances in a smart home?",
+                "thermostats work? do smart How",
+                "How smart do work? thermostats",
+                "energy-efficient What a are home? appliances in smart"
+            ],
+            "responses": [
+                "How do smart lights adjust to different conditions?",
+                "Are smart homes energy-efficient?",
+                "Can a smart home save me money on electricity bills?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_setup",
+            "patterns": [
+                "What should I consider when designing a smart home?",
+                "devices with I systems? integrate existing home Can smart",
+                "Do I need a smart home hub?",
+                "should designing when smart consider home? a I What",
+                "designing I What smart should consider when a home?",
+                "How do I set up a smart home?",
+                "in smart I my do or home? How replace devices upgrade",
+                "home with integrate systems? existing I smart Can devices",
+                "How replace in smart or I devices my upgrade home? do",
+                "systems? smart Can with home existing devices I integrate",
+                "How do I upgrade or replace devices in my smart home?",
+                "a hub? need Do home I smart",
+                "How smart do up home? I set a",
+                "should a when home? smart designing What I consider",
+                "Can I integrate smart devices with existing home systems?",
+                "hub? a Do need smart I home",
+                "smart Do need I hub? a home",
+                "should home? smart I a when designing consider What",
+                "do home? How smart in devices replace my or I upgrade",
+                "smart with existing Can devices I home integrate systems?"
+            ],
+            "responses": [
+                "How do I set up a smart home?",
+                "Do I need a smart home hub?",
+                "Can I integrate smart devices with existing home systems?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_functionality",
+            "patterns": [
+                "in work a home? How recognition facial smart does",
+                "Can I automate my daily routines with a smart home?",
+                "smart in does recognition facial work a home? How",
+                "a for in home? are What sensors used smart",
+                "What are smart sensors used for in a home?",
+                "AI is smart the home? role a in What of",
+                "in home? What smart the of a AI role is",
+                "in smart work does home? recognition facial a How",
+                "home? of smart a is the role What AI in",
+                "What is the role of AI in a smart home?",
+                "smart How cameras work? do",
+                "How does a home? work recognition in smart facial",
+                "a in recognition facial work home? smart does How",
+                "is smart home? role a the of AI What in",
+                "recognition home? does a How facial smart work in",
+                "recognition home? does How smart a facial in work",
+                "How does facial recognition work in a smart home?",
+                "smart How work? cameras do",
+                "a my Can smart I home? daily routines automate with",
+                "How do smart cameras work?"
+            ],
+            "responses": [
+                "What is the role of AI in a smart home?",
+                "What are smart sensors used for in a home?",
+                "How do smart cameras work?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_health",
+            "patterns": [
+                "vitals track smart a my I in home? Can",
+                "vitals smart track I Can a in home? my",
+                "smart health home incorporate monitoring? a Can",
+                "Can track I smart my in a home? vitals",
+                "the health monitoring in of a smart are What home? benefits",
+                "a smart incorporate home health Can monitoring?",
+                "smart monitoring? incorporate a Can health home",
+                "home? health a of the are monitoring What in benefits smart",
+                "What are the benefits of health monitoring in a smart home?",
+                "a home Can incorporate monitoring? health smart",
+                "monitoring home? benefits smart in of the What are health a",
+                "of smart benefits the in What home? monitoring a are health",
+                "health can homes How help tracking? smart with",
+                "Can a smart home incorporate health monitoring?",
+                "incorporate health Can monitoring? home a smart",
+                "the home? monitoring What health of are benefits in a smart",
+                "How can smart homes help with health tracking?",
+                "Can I track my vitals in a smart home?",
+                "incorporate health monitoring? smart Can a home"
+            ],
+            "responses": [
+                "How can smart homes help with health tracking?",
+                "What are the benefits of health monitoring in a smart home?",
+                "Can a smart home incorporate health monitoring?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "smart_home_future",
+            "patterns": [
+                "Will smart homes become more affordable?",
+                "innovations What homes? smart in are expected",
+                "homes affordable? smart more become Will",
+                "What innovations smart are in expected homes?",
+                "smart is homes? of future What the",
+                "What is the future of smart homes?",
+                "homes? expected What in are smart innovations",
+                "the smart in will homes How AI impact future?",
+                "What expected homes? smart innovations in are",
+                "homes? in innovations are What expected smart",
+                "Will more affordable? smart become homes",
+                "How will AI impact smart homes in the future?",
+                "What future homes? is of smart the",
+                "What innovations are expected in smart homes?",
+                "of future is the smart What homes?",
+                "are innovations in What expected homes? smart",
+                "more smart become homes affordable? Will",
+                "the smart impact will How homes future? in AI",
+                "is of future What homes? smart the"
+            ],
+            "responses": [
+                "What innovations are expected in smart homes?",
+                "How will AI impact smart homes in the future?",
+                "Will smart homes become more affordable?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_driving_car",
+            "patterns": [
+                "work? cars do self-driving How",
+                "How do self-driving cars recognize pedestrians?",
+                "of self-driving main components a the What car? are",
+                "What self-driving car? a is",
+                "What is a self-driving car?",
+                "autonomous benefits are What the driving? of",
+                "What autonomous driving? of are the benefits",
+                "cars How pedestrians? do self-driving recognize",
+                "What benefits driving? autonomous the are of",
+                "What sensors are used in self-driving cars?",
+                "car? a What self-driving is",
+                "in What vehicles? autonomous used technology is",
+                "How safe are self-driving cars?",
+                "vehicles? is autonomous What technology used in",
+                "What are the benefits of autonomous driving?",
+                "cars work? How self-driving do",
+                "How do self-driving cars use AI?",
+                "a do cars smart without How navigate driver?",
+                "What technology is used in autonomous vehicles?",
+                "How do smart cars navigate without a driver?",
+                "safe How cars? self-driving are",
+                "What are the main components of a self-driving car?",
+                "How do self-driving cars work?",
+                "autonomous driving? What are benefits of the",
+                "are components main What self-driving the of a car?"
+            ],
+            "responses": [
+                "What are the benefits of autonomous driving?",
+                "How safe are self-driving cars?",
+                "What are the main components of a self-driving car?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_driving_car_technology",
+            "patterns": [
+                "What is TensorFlow's role in self-driving car technology?",
+                "What the in autonomous vehicles? radar of importance is",
+                "autonomous a How AI learning in role do driving? machine and play",
+                "of in is the radar What vehicles? importance autonomous",
+                "sensors cars? are used in What self-driving",
+                "driving? learning deep autonomous improve models do How",
+                "models do learning How autonomous deep improve driving?",
+                "What is the role of LiDAR in self-driving cars?",
+                "What sensors are used in self-driving cars?",
+                "vehicles? in is of autonomous radar importance What the",
+                "How do deep learning models improve autonomous driving?",
+                "What cars? in self-driving of the LiDAR role is",
+                "What is the importance of radar in autonomous vehicles?",
+                "AI autonomous driving? machine do and How play role in a learning",
+                "technology? car in role What self-driving TensorFlow's is",
+                "self-driving technology? role in TensorFlow's What car is",
+                "is in role self-driving technology? What TensorFlow's car",
+                "play and role in How learning driving? do machine AI a autonomous",
+                "How do AI and machine learning play a role in autonomous driving?",
+                "models improve learning driving? deep do autonomous How",
+                "improve deep driving? How models autonomous learning do"
+            ],
+            "responses": [
+                "How do deep learning models improve autonomous driving?",
+                "What is TensorFlow's role in self-driving car technology?",
+                "What is the role of LiDAR in self-driving cars?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_driving_car_safety",
+            "patterns": [
+                "How do self-driving cars avoid accidents?",
+                "What are the safety features in smart cars?",
+                "What features are cars? safety the smart in",
+                "cars emergencies? self-driving How do handle",
+                "How do self-driving cars handle emergencies?",
+                "features smart in safety cars? What are the",
+                "of self-driving cars? ensuring the in challenges are What safety",
+                "in safety What features smart cars? are the",
+                "accidents? do avoid cars self-driving How",
+                "self-driving cars accidents? avoid do How",
+                "What are the challenges of ensuring safety in self-driving cars?",
+                "do How emergencies? handle self-driving cars",
+                "smart in the cars? safety are What features",
+                "to vehicles Are safe drive? autonomous",
+                "autonomous vehicles safe to Are drive?",
+                "are features cars? smart in safety the What",
+                "cars? the safety features are smart in What",
+                "Are autonomous vehicles safe to drive?",
+                "What in cars? the self-driving are safety ensuring of challenges",
+                "handle do cars self-driving emergencies? How"
+            ],
+            "responses": [
+                "How do self-driving cars handle emergencies?",
+                "How do self-driving cars avoid accidents?",
+                "What are the challenges of ensuring safety in self-driving cars?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_driving_car_regulations",
+            "patterns": [
+                "the driving? of legal autonomous challenges What are",
+                "development vehicles? How of do the autonomous regulations impact",
+                "of impact regulations vehicles? do autonomous development the How",
+                "What are the legal challenges of autonomous driving?",
+                "cars Will be legalized self-driving everywhere?",
+                "of autonomous What are the challenges legal driving?",
+                "How do regulations impact the development of autonomous vehicles?",
+                "What regulations are there for self-driving cars?",
+                "How is the government regulating autonomous vehicles?",
+                "be cars everywhere? legalized Will self-driving",
+                "the What legal are autonomous challenges of driving?",
+                "challenges driving? autonomous of are What the legal",
+                "What driving? legal challenges the of are autonomous",
+                "Will self-driving cars be legalized everywhere?",
+                "What of autonomous challenges are driving? the legal",
+                "driving? challenges the are autonomous legal What of",
+                "be cars Will legalized everywhere? self-driving",
+                "development regulations do impact autonomous vehicles? How the of",
+                "the How government regulating autonomous vehicles? is",
+                "cars self-driving legalized everywhere? Will be"
+            ],
+            "responses": [
+                "How is the government regulating autonomous vehicles?",
+                "Will self-driving cars be legalized everywhere?",
+                "What are the legal challenges of autonomous driving?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charging_stations_overview",
+            "patterns": [
+                "wireless Are ones? more than efficient stations wired charging",
+                "How electric for stations vehicles? charging do wireless work",
+                "How for vehicles? do stations charging wireless electric work",
+                "charging do vehicles? stations electric How for work wireless",
+                "What the advantages of stations? wireless charging are",
+                "more wireless Are efficient wired charging than ones? stations",
+                "What are wireless charging stations?",
+                "stations? What charging wireless are",
+                "wireless efficient than stations wired charging ones? Are more",
+                "charging What wireless are stations?",
+                "for charging do stations work How vehicles? electric wireless",
+                "What are the advantages of wireless charging stations?",
+                "do vehicles? How stations for work charging wireless electric",
+                "stations? advantages charging wireless are What the of",
+                "charging stations? are wireless What",
+                "Are wired than efficient charging more wireless stations ones?",
+                "How do wireless charging stations work for electric vehicles?",
+                "Are wireless charging stations more efficient than wired ones?",
+                "are of the wireless charging advantages What stations?"
+            ],
+            "responses": [
+                "Are wireless charging stations more efficient than wired ones?",
+                "What are wireless charging stations?",
+                "How do wireless charging stations work for electric vehicles?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charging_stations_technology",
+            "patterns": [
+                "charging stations? in What technology is NFC",
+                "wireless What charging used technologies in stations? are",
+                "charging stations? is technology in NFC What",
+                "is NFC in What charging stations? technology",
+                "coupling stations? inductive How does charging in work",
+                "in technology charging stations? What is NFC",
+                "does coupling How in charging stations? work inductive",
+                "What technologies are used in wireless charging stations?",
+                "How does inductive coupling work in charging stations?",
+                "What is NFC technology in charging stations?",
+                "What sensors are used in wireless EV charging stations?",
+                "wireless sensors are What in EV used stations? charging",
+                "in charging does coupling work inductive How stations?",
+                "What in stations? is technology charging NFC",
+                "coupling does work inductive How in stations? charging",
+                "used stations? sensors in What wireless EV are charging",
+                "in used EV sensors What charging wireless stations? are",
+                "coupling work inductive charging does stations? in How",
+                "How coupling inductive charging does stations? work in"
+            ],
+            "responses": [
+                "How does inductive coupling work in charging stations?",
+                "What is NFC technology in charging stations?",
+                "What sensors are used in wireless EV charging stations?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charging_stations_payment",
+            "patterns": [
+                "How does NFC payment work at charging stations?",
+                "What NFC is wireless in charging stations?",
+                "How NFC charging does payment stations? at work",
+                "stations? NFC in charging is wireless What",
+                "stations? is What NFC charging wireless in",
+                "benefits in EV What stations? are charging NFC the of",
+                "wireless in stations? What charging NFC is",
+                "NFC are stations? EV benefits of What the charging in",
+                "does payment charging work How stations? at NFC",
+                "What are the benefits of NFC in EV charging stations?",
+                "does payment work charging NFC stations? How at",
+                "work How payment NFC charging at does stations?",
+                "benefits the in stations? are NFC of What charging EV",
+                "What is NFC in wireless charging stations?",
+                "in stations? EV are charging What the benefits NFC of",
+                "the in EV are What stations? benefits charging of NFC",
+                "NFC charging at stations? How does work payment",
+                "in stations? is wireless NFC What charging"
+            ],
+            "responses": [
+                "How does NFC payment work at charging stations?",
+                "What is NFC in wireless charging stations?",
+                "What are the benefits of NFC in EV charging stations?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charging_stations_components",
+            "patterns": [
+                "What is the role of Arduino in charging stations?",
+                "What are charging sensors used in stations?",
+                "work stations? charging do relay How in modules",
+                "What components are used in wireless charging stations?",
+                "stations? in What used sensors are charging",
+                "Arduino role stations? is What the charging in of",
+                "are used wireless charging stations? What components in",
+                "is Arduino stations? in charging What role the of",
+                "stations? charging sensors are What in used",
+                "in charging are stations? What used sensors",
+                "charging modules How stations? in do work relay",
+                "stations? in wireless What used are components charging",
+                "used are charging in What stations? sensors",
+                "of the is stations? What in charging Arduino role",
+                "relay in How charging do stations? modules work",
+                "stations? in wireless used charging What are components",
+                "What sensors are used in charging stations?",
+                "charging of role in Arduino is What the stations?",
+                "How do relay modules work in charging stations?"
+            ],
+            "responses": [
+                "What components are used in wireless charging stations?",
+                "What sensors are used in charging stations?",
+                "How do relay modules work in charging stations?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charging_stations_smart_cities",
+            "patterns": [
+                "stations? charging cities do smart How wireless use",
+                "use How smart wireless stations? do charging cities",
+                "smart cities How wireless stations? charging do use",
+                "How do wireless charging stations contribute to sustainability in smart cities?",
+                "charging smart is role cities? wireless in the of What stations",
+                "How do smart cities use wireless charging stations?",
+                "do stations? use cities smart wireless charging How",
+                "is role smart stations cities? in charging the of wireless What",
+                "wireless How cities stations? smart do use charging",
+                "in sustainability contribute wireless to smart do stations How charging cities?",
+                "charging contribute sustainability stations wireless in How cities? smart to do",
+                "charging use do stations? smart How wireless cities",
+                "cities? stations do sustainability How smart charging contribute in to wireless",
+                "smart use do How stations? cities charging wireless",
+                "stations? wireless use smart do charging How cities",
+                "stations in charging cities? is smart of the wireless What role",
+                "What is the role of wireless charging stations in smart cities?",
+                "stations charging role cities? smart the of wireless is What in"
+            ],
+            "responses": [
+                "How do wireless charging stations contribute to sustainability in smart cities?",
+                "How do smart cities use wireless charging stations?",
+                "What is the role of wireless charging stations in smart cities?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "design_smart_city_overview",
+            "patterns": [
+                "smart critical is for planning Why cities?",
+                "for smart planning critical cities? is Why",
+                "is cities? importance in design smart What the of",
+                "How affect does of design the smart cities? functionality",
+                "smart the is in What of importance design cities?",
+                "design? main smart are city objectives the What of",
+                "the affect does smart design cities? of functionality How",
+                "critical smart planning for Why cities? is",
+                "What is the importance of design in smart cities?",
+                "of smart the importance in What cities? is design",
+                "design affect of does smart How functionality the cities?",
+                "importance smart the cities? is of in design What",
+                "of cities? the affect How smart design does functionality",
+                "critical planning Why for is cities? smart",
+                "planning for cities? Why smart is critical",
+                "How does design affect the functionality of smart cities?",
+                "functionality cities? smart does How the design of affect",
+                "Why is planning critical for smart cities?",
+                "What are the main objectives of smart city design?"
+            ],
+            "responses": [
+                "What are the main objectives of smart city design?",
+                "How does design affect the functionality of smart cities?",
+                "Why is planning critical for smart cities?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "design_smart_city_components",
+            "patterns": [
+                "city car a into How does model? smart fit the smart",
+                "models? for How city are smart materials selected",
+                "the city car a into smart smart fit How model? does",
+                "does fit How city smart smart the model? into a car",
+                "in roles a buildings of smart What are and city the roads design?",
+                "What are the roles of roads and buildings in a smart city design?",
+                "How selected city are smart for materials models?",
+                "What are the key components of a smart city?",
+                "a What are key city? components of smart the",
+                "How selected materials smart for city models? are",
+                "of a smart the are What city? key components",
+                "How are materials selected for smart city models?",
+                "a smart fit How city does the car smart into model?",
+                "and are roles roads buildings a smart the What in city of design?",
+                "components a city? the smart of are What key",
+                "a smart city? components key are the of What",
+                "How does a smart car fit into the smart city model?",
+                "fit city a How the car smart into model? smart does",
+                "into a model? How smart fit does city the car smart"
+            ],
+            "responses": [
+                "What are the roles of roads and buildings in a smart city design?",
+                "How does a smart car fit into the smart city model?",
+                "What are the key components of a smart city?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "design_smart_city_technical",
+            "patterns": [
+                "for turns are and cities? in smart curves smart How designed cars",
+                "cities? smart road planned dimensions layouts How in and are",
+                "the in cues What smart of visual is city role designs?",
+                "of aspects smart cities? What designing are technical the",
+                "What technical are aspects of cities? designing the smart",
+                "How are curves and turns designed for smart cars in smart cities?",
+                "aspects designing smart cities? are technical the What of",
+                "dimensions are cities? planned How layouts in and road smart",
+                "cities? planned dimensions smart are How and in road layouts",
+                "What is the role of visual cues in smart city designs?",
+                "What smart visual cues the role in is city designs? of",
+                "smart designed cars How and cities? are turns in smart for curves",
+                "smart curves turns cars How and for smart designed are cities? in",
+                "layouts How cities? are dimensions smart road and in planned",
+                "How are road dimensions and layouts planned in smart cities?",
+                "in cues smart the city is designs? role What of visual",
+                "city role in smart of designs? cues What the visual is",
+                "cars designed turns in cities? curves for and How smart are smart",
+                "What are the technical aspects of designing smart cities?"
+            ],
+            "responses": [
+                "How are road dimensions and layouts planned in smart cities?",
+                "How are curves and turns designed for smart cars in smart cities?",
+                "What are the technical aspects of designing smart cities?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "design_smart_city_innovations",
+            "patterns": [
+                "is future What city design? the smart of",
+                "city smart is What the future of design?",
+                "into does planning? fit energy How smart renewable city",
+                "What is of future design? the smart city",
+                "What innovations are driving smart city design?",
+                "future smart of the design? city is What",
+                "IoT smart cities? are into integrated How AI and",
+                "How fit renewable energy planning? into city does smart",
+                "cities? IoT How into AI and are integrated smart",
+                "design? What driving smart city are innovations",
+                "How are AI and IoT integrated into smart cities?",
+                "How smart into cities? and integrated AI are IoT",
+                "What is the future of smart city design?",
+                "fit How into planning? energy renewable smart does city",
+                "city is of future design? the What smart",
+                "How does renewable energy fit into smart city planning?",
+                "does city renewable into smart energy planning? How fit",
+                "smart renewable fit does city How planning? into energy",
+                "driving smart What are design? city innovations"
+            ],
+            "responses": [
+                "How are AI and IoT integrated into smart cities?",
+                "How does renewable energy fit into smart city planning?",
+                "What innovations are driving smart city design?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "design_smart_city_model",
+            "patterns": [
+                "How is space optimized in smart city models?",
+                "role CNC city in the machines What building is of smart models?",
+                "city What stages a model? involved creating smart are in",
+                "is How models? smart in optimized city space",
+                "What a smart model? in stages city creating involved are",
+                "city models smart are developed? How",
+                "role of is What machines the city in CNC models? building smart",
+                "smart model? involved What stages in a creating are city",
+                "in city optimized models? How is space smart",
+                "are developed? smart city models How",
+                "space How is models? city in smart optimized",
+                "How are smart city models developed?",
+                "What stages are involved in creating a smart city model?",
+                "smart city space models? is How optimized in",
+                "What is the role of CNC machines in building smart city models?",
+                "in models? role CNC is of building smart machines the city What",
+                "smart city How developed? are models",
+                "in involved a model? What smart are creating stages city",
+                "are city smart models How developed?"
+            ],
+            "responses": [
+                "How are smart city models developed?",
+                "How is space optimized in smart city models?",
+                "What is the role of CNC machines in building smart city models?"
+            ],
+            "context_set": ""
+        }
+    ]
+}
